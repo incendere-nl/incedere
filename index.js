@@ -1,4551 +1,4549 @@
 var codesEl;
 var jsonData = [
-[
  {
-  "latijn": "audire ",
-  "nederlands": "horen"
+  "code": "audire ",
+  "name": "horen"
  },
  {
-  "latijn": "clamare ",
-  "nederlands": "schreeuwen"
+  "code": "clamare ",
+  "name": "schreeuwen"
  },
  {
-  "latijn": "iacēre ",
-  "nederlands": "liggen"
+  "code": "iacēre ",
+  "name": "liggen"
  },
  {
-  "latijn": "iubēre ",
-  "nederlands": "bevelen"
+  "code": "iubēre ",
+  "name": "bevelen"
  },
  {
-  "latijn": "lacrimare ",
-  "nederlands": "huilen"
+  "code": "lacrimare ",
+  "name": "huilen"
  },
  {
-  "latijn": "necare ",
-  "nederlands": "doden"
+  "code": "necare ",
+  "name": "doden"
  },
  {
-  "latijn": "ponere ",
-  "nederlands": "plaatsen"
+  "code": "ponere ",
+  "name": "plaatsen"
  },
  {
-  "latijn": "portare ",
-  "nederlands": "dragen"
+  "code": "portare ",
+  "name": "dragen"
  },
  {
-  "latijn": "recusare ",
-  "nederlands": "weigeren"
+  "code": "recusare ",
+  "name": "weigeren"
  },
  {
-  "latijn": "timēre ",
-  "nederlands": "vrezen "
+  "code": "timēre ",
+  "name": "vrezen "
  },
  {
-  "latijn": "tollere ",
-  "nederlands": "optillen"
+  "code": "tollere ",
+  "name": "optillen"
  },
  {
-  "latijn": "venire ",
-  "nederlands": "komen"
+  "code": "venire ",
+  "name": "komen"
  },
  {
-  "latijn": "vidēre ",
-  "nederlands": "zien"
+  "code": "vidēre ",
+  "name": "zien"
  },
  {
-  "latijn": "vocare ",
-  "nederlands": "1 roepen "
+  "code": "vocare ",
+  "name": "1 roepen "
  },
  {
-  "latijn": "aqua ",
-  "nederlands": "water"
+  "code": "aqua ",
+  "name": "water"
  },
  {
-  "latijn": "arbor ",
-  "nederlands": "boom"
+  "code": "arbor ",
+  "name": "boom"
  },
  {
-  "latijn": "flumen ",
-  "nederlands": "flumina "
+  "code": "flumen ",
+  "name": "flumina "
  },
  {
-  "latijn": "locus ",
-  "nederlands": "plaats"
+  "code": "locus ",
+  "name": "plaats"
  },
  {
-  "latijn": "mandatum ",
-  "nederlands": "opdracht"
+  "code": "mandatum ",
+  "name": "opdracht"
  },
  {
-  "latijn": "puer ",
-  "nederlands": " pueri "
+  "code": "puer ",
+  "name": " pueri "
  },
  {
-  "latijn": "rex ",
-  "nederlands": " reges "
+  "code": "rex ",
+  "name": " reges "
  },
  {
-  "latijn": "servus ",
-  "nederlands": "slaaf"
+  "code": "servus ",
+  "name": "slaaf"
  },
  {
-  "latijn": "ad + acc ",
-  "nederlands": "1 naar "
+  "code": "ad + acc ",
+  "name": "1 naar "
  },
  {
-  "latijn": "in + acc ",
-  "nederlands": "in "
+  "code": "in + acc ",
+  "name": "in "
  },
  {
-  "latijn": "inter + acc ",
-  "nederlands": "1 tussen 2 tijdens"
+  "code": "inter + acc ",
+  "name": "1 tussen 2 tijdens"
  },
  {
-  "latijn": "et ",
-  "nederlands": "1 en 2 ook"
+  "code": "et ",
+  "name": "1 en 2 ook"
  },
  {
-  "latijn": "ibi ",
-  "nederlands": "daar"
+  "code": "ibi ",
+  "name": "daar"
  },
  {
-  "latijn": "ideo ",
-  "nederlands": "daarom"
+  "code": "ideo ",
+  "name": "daarom"
  },
  {
-  "latijn": "non ",
-  "nederlands": "niet"
+  "code": "non ",
+  "name": "niet"
  },
  {
-  "latijn": "tamen ",
-  "nederlands": "toch"
+  "code": "tamen ",
+  "name": "toch"
  },
  {
-  "latijn": "ubi ",
-  "nederlands": "waar"
+  "code": "ubi ",
+  "name": "waar"
  },
  {
-  "latijn": "accedere ",
-  "nederlands": "1 gaan naar 2 naderen"
+  "code": "accedere ",
+  "name": "1 gaan naar 2 naderen"
  },
  {
-  "latijn": "bibere ",
-  "nederlands": "drinken"
+  "code": "bibere ",
+  "name": "drinken"
  },
  {
-  "latijn": "cogitare ",
-  "nederlands": "(na)denken"
+  "code": "cogitare ",
+  "name": "(na)denken"
  },
  {
-  "latijn": "custodire ",
-  "nederlands": "bewaken"
+  "code": "custodire ",
+  "name": "bewaken"
  },
  {
-  "latijn": "dare ",
-  "nederlands": "geven"
+  "code": "dare ",
+  "name": "geven"
  },
  {
-  "latijn": "dicere ",
-  "nederlands": "zeggen"
+  "code": "dicere ",
+  "name": "zeggen"
  },
  {
-  "latijn": "esse ",
-  "nederlands": "zijn"
+  "code": "esse ",
+  "name": "zijn"
  },
  {
-  "latijn": "favēre + dat ",
-  "nederlands": "steun geven aan"
+  "code": "favēre + dat ",
+  "name": "steun geven aan"
  },
  {
-  "latijn": "praebēre ",
-  "nederlands": "(aan)bieden"
+  "code": "praebēre ",
+  "name": "(aan)bieden"
  },
  {
-  "latijn": "protegere ",
-  "nederlands": "beschermen"
+  "code": "protegere ",
+  "name": "beschermen"
  },
  {
-  "latijn": "ridēre ",
-  "nederlands": "lachen"
+  "code": "ridēre ",
+  "name": "lachen"
  },
  {
-  "latijn": "tradere ",
-  "nederlands": "overhandigen"
+  "code": "tradere ",
+  "name": "overhandigen"
  },
  {
-  "latijn": "deus ",
-  "nederlands": "god"
+  "code": "deus ",
+  "name": "god"
  },
  {
-  "latijn": "femina ",
-  "nederlands": "vrouw"
+  "code": "femina ",
+  "name": "vrouw"
  },
  {
-  "latijn": "filius ",
-  "nederlands": "zoon"
+  "code": "filius ",
+  "name": "zoon"
  },
  {
-  "latijn": "mater ",
-  "nederlands": " matres "
+  "code": "mater ",
+  "name": " matres "
  },
  {
-  "latijn": "nomen ",
-  "nederlands": " nomina "
+  "code": "nomen ",
+  "name": " nomina "
  },
  {
-  "latijn": "pater ",
-  "nederlands": " patres "
+  "code": "pater ",
+  "name": " patres "
  },
  {
-  "latijn": "uxor ",
-  "nederlands": " uxores "
+  "code": "uxor ",
+  "name": " uxores "
  },
  {
-  "latijn": "haud ",
-  "nederlands": "helemaal niet"
+  "code": "haud ",
+  "name": "helemaal niet"
  },
  {
-  "latijn": "nam ",
-  "nederlands": "want"
+  "code": "nam ",
+  "name": "want"
  },
  {
-  "latijn": "sic ",
-  "nederlands": "zo"
+  "code": "sic ",
+  "name": "zo"
  },
  {
-  "latijn": "sicut ",
-  "nederlands": "zoals"
+  "code": "sicut ",
+  "name": "zoals"
  },
  {
-  "latijn": "subito ",
-  "nederlands": "plotseling"
+  "code": "subito ",
+  "name": "plotseling"
  },
  {
-  "latijn": "aedificare ",
-  "nederlands": "bouwen"
+  "code": "aedificare ",
+  "name": "bouwen"
  },
  {
-  "latijn": "dividere ",
-  "nederlands": "verdelen"
+  "code": "dividere ",
+  "name": "verdelen"
  },
  {
-  "latijn": "facere ",
-  "nederlands": "facio "
+  "code": "facere ",
+  "name": "facio "
  },
  {
-  "latijn": "intrare ",
-  "nederlands": "binnenkomen"
+  "code": "intrare ",
+  "name": "binnenkomen"
  },
  {
-  "latijn": "licet (+dat) ",
-  "nederlands": "het is toegestaan (aan)"
+  "code": "licet (+dat) ",
+  "name": "het is toegestaan (aan)"
  },
  {
-  "latijn": "placēre + dat ",
-  "nederlands": "bevallen"
+  "code": "placēre + dat ",
+  "name": "bevallen"
  },
  {
-  "latijn": "stare ",
-  "nederlands": "staan"
+  "code": "stare ",
+  "name": "staan"
  },
  {
-  "latijn": "tacēre ",
-  "nederlands": "zwijgen"
+  "code": "tacēre ",
+  "name": "zwijgen"
  },
  {
-  "latijn": "amicus ",
-  "nederlands": "vriend"
+  "code": "amicus ",
+  "name": "vriend"
  },
  {
-  "latijn": "civis ",
-  "nederlands": " cives "
+  "code": "civis ",
+  "name": " cives "
  },
  {
-  "latijn": "frater ",
-  "nederlands": " fratres "
+  "code": "frater ",
+  "name": " fratres "
  },
  {
-  "latijn": "gladius ",
-  "nederlands": "zwaard"
+  "code": "gladius ",
+  "name": "zwaard"
  },
  {
-  "latijn": "hostis ",
-  "nederlands": " hostes "
+  "code": "hostis ",
+  "name": " hostes "
  },
  {
-  "latijn": "mons ",
-  "nederlands": " montes "
+  "code": "mons ",
+  "name": " montes "
  },
  {
-  "latijn": "murus ",
-  "nederlands": "muur"
+  "code": "murus ",
+  "name": "muur"
  },
  {
-  "latijn": "populus ",
-  "nederlands": "volk"
+  "code": "populus ",
+  "name": "volk"
  },
  {
-  "latijn": "saxum ",
-  "nederlands": "rots "
+  "code": "saxum ",
+  "name": "rots "
  },
  {
-  "latijn": "urbs ",
-  "nederlands": " urbes "
+  "code": "urbs ",
+  "name": " urbes "
  },
  {
-  "latijn": "vir ",
-  "nederlands": " mv viri "
+  "code": "vir ",
+  "name": " mv viri "
  },
  {
-  "latijn": "cum + abl ",
-  "nederlands": "met"
+  "code": "cum + abl ",
+  "name": "met"
  },
  {
-  "latijn": "de + abl ",
-  "nederlands": "1 van(af) 2 over"
+  "code": "de + abl ",
+  "name": "1 van(af) 2 over"
  },
  {
-  "latijn": "in + abl ",
-  "nederlands": "1 in 2 op"
+  "code": "in + abl ",
+  "name": "1 in 2 op"
  },
  {
-  "latijn": "cur ",
-  "nederlands": "waarom"
+  "code": "cur ",
+  "name": "waarom"
  },
  {
-  "latijn": "dum ",
-  "nederlands": "1 terwijl 2 zolang als"
+  "code": "dum ",
+  "name": "1 terwijl 2 zolang als"
  },
  {
-  "latijn": "iam ",
-  "nederlands": "al "
+  "code": "iam ",
+  "name": "al "
  },
  {
-  "latijn": "primum bijw ",
-  "nederlands": "eerst"
+  "code": "primum bijw ",
+  "name": "eerst"
  },
  {
-  "latijn": "quoque ",
-  "nederlands": "ook"
+  "code": "quoque ",
+  "name": "ook"
  },
  {
-  "latijn": "sed ",
-  "nederlands": "maar"
+  "code": "sed ",
+  "name": "maar"
  },
  {
-  "latijn": "tandem ",
-  "nederlands": "eindelijk"
+  "code": "tandem ",
+  "name": "eindelijk"
  },
  {
-  "latijn": "cadere ",
-  "nederlands": "vallen"
+  "code": "cadere ",
+  "name": "vallen"
  },
  {
-  "latijn": "dormire ",
-  "nederlands": "slapen"
+  "code": "dormire ",
+  "name": "slapen"
  },
  {
-  "latijn": "retinēre ",
-  "nederlands": "tegenhouden"
+  "code": "retinēre ",
+  "name": "tegenhouden"
  },
  {
-  "latijn": "servare ",
-  "nederlands": "redden"
+  "code": "servare ",
+  "name": "redden"
  },
  {
-  "latijn": "temptare ",
-  "nederlands": "proberen"
+  "code": "temptare ",
+  "name": "proberen"
  },
  {
-  "latijn": "arma mv ",
-  "nederlands": "wapens"
+  "code": "arma mv ",
+  "name": "wapens"
  },
  {
-  "latijn": "arx ",
-  "nederlands": " arces "
+  "code": "arx ",
+  "name": " arces "
  },
  {
-  "latijn": "auxilium ",
-  "nederlands": "hulp"
+  "code": "auxilium ",
+  "name": "hulp"
  },
  {
-  "latijn": "custos ",
-  "nederlands": " custodes "
+  "code": "custos ",
+  "name": " custodes "
  },
  {
-  "latijn": "miles ",
-  "nederlands": " milites "
+  "code": "miles ",
+  "name": " milites "
  },
  {
-  "latijn": "nox ",
-  "nederlands": " noctes "
+  "code": "nox ",
+  "name": " noctes "
  },
  {
-  "latijn": "pars ",
-  "nederlands": " partes "
+  "code": "pars ",
+  "name": " partes "
  },
  {
-  "latijn": "periculum ",
-  "nederlands": "gevaar"
+  "code": "periculum ",
+  "name": "gevaar"
  },
  {
-  "latijn": "puella ",
-  "nederlands": "meisje"
+  "code": "puella ",
+  "name": "meisje"
  },
  {
-  "latijn": "Roma ",
-  "nederlands": "Rome"
+  "code": "Roma ",
+  "name": "Rome"
  },
  {
-  "latijn": "Romanus ",
-  "nederlands": "Romein"
+  "code": "Romanus ",
+  "name": "Romein"
  },
  {
-  "latijn": "silentium ",
-  "nederlands": "stilte"
+  "code": "silentium ",
+  "name": "stilte"
  },
  {
-  "latijn": "turba ",
-  "nederlands": "menigte"
+  "code": "turba ",
+  "name": "menigte"
  },
  {
-  "latijn": "post + acc ",
-  "nederlands": "1 achter 2 na"
+  "code": "post + acc ",
+  "name": "1 achter 2 na"
  },
  {
-  "latijn": "ecce ",
-  "nederlands": "kijk"
+  "code": "ecce ",
+  "name": "kijk"
  },
  {
-  "latijn": "semper ",
-  "nederlands": "altijd"
+  "code": "semper ",
+  "name": "altijd"
  },
  {
-  "latijn": "si ",
-  "nederlands": "als "
+  "code": "si ",
+  "name": "als "
  },
  {
-  "latijn": "statim ",
-  "nederlands": "meteen"
+  "code": "statim ",
+  "name": "meteen"
  },
  {
-  "latijn": "abesse ",
-  "nederlands": "afwezig zijn"
+  "code": "abesse ",
+  "name": "afwezig zijn"
  },
  {
-  "latijn": "addere ",
-  "nederlands": "toevoegen"
+  "code": "addere ",
+  "name": "toevoegen"
  },
  {
-  "latijn": "ardēre ",
-  "nederlands": "branden"
+  "code": "ardēre ",
+  "name": "branden"
  },
  {
-  "latijn": "debēre ",
-  "nederlands": "moeten"
+  "code": "debēre ",
+  "name": "moeten"
  },
  {
-  "latijn": "discedere ",
-  "nederlands": "weggaan"
+  "code": "discedere ",
+  "name": "weggaan"
  },
  {
-  "latijn": "docēre ",
-  "nederlands": "onderwijzen"
+  "code": "docēre ",
+  "name": "onderwijzen"
  },
  {
-  "latijn": "ludere ",
-  "nederlands": "spelen"
+  "code": "ludere ",
+  "name": "spelen"
  },
  {
-  "latijn": "orare ",
-  "nederlands": "1 bidden (tot) 2 smeken (om)"
+  "code": "orare ",
+  "name": "1 bidden (tot) 2 smeken (om)"
  },
  {
-  "latijn": "ostendere ",
-  "nederlands": "tonen"
+  "code": "ostendere ",
+  "name": "tonen"
  },
  {
-  "latijn": "vivere ",
-  "nederlands": "leven"
+  "code": "vivere ",
+  "name": "leven"
  },
  {
-  "latijn": "annus ",
-  "nederlands": "jaar"
+  "code": "annus ",
+  "name": "jaar"
  },
  {
-  "latijn": "culpa ",
-  "nederlands": "schuld"
+  "code": "culpa ",
+  "name": "schuld"
  },
  {
-  "latijn": "dea ",
-  "nederlands": "godin"
+  "code": "dea ",
+  "name": "godin"
  },
  {
-  "latijn": "ignis ",
-  "nederlands": " ignes "
+  "code": "ignis ",
+  "name": " ignes "
  },
  {
-  "latijn": "poena ",
-  "nederlands": "straf"
+  "code": "poena ",
+  "name": "straf"
  },
  {
-  "latijn": "signum ",
-  "nederlands": "teken"
+  "code": "signum ",
+  "name": "teken"
  },
  {
-  "latijn": "sol ",
-  "nederlands": " soles "
+  "code": "sol ",
+  "name": " soles "
  },
  {
-  "latijn": "e\/ex + abl ",
-  "nederlands": "uit"
+  "code": "e\/ex + abl ",
+  "name": "uit"
  },
  {
-  "latijn": "super + acc ",
-  "nederlands": "boven(op) "
+  "code": "super + acc ",
+  "name": "boven(op) "
  },
  {
-  "latijn": "autem ",
-  "nederlands": "echter"
+  "code": "autem ",
+  "name": "echter"
  },
  {
-  "latijn": "diu ",
-  "nederlands": "lang "
+  "code": "diu ",
+  "name": "lang "
  },
  {
-  "latijn": "mox ",
-  "nederlands": "spoedig"
+  "code": "mox ",
+  "name": "spoedig"
  },
  {
-  "latijn": "nuper ",
-  "nederlands": "kort geleden"
+  "code": "nuper ",
+  "name": "kort geleden"
  },
  {
-  "latijn": "tantum ",
-  "nederlands": "slechts "
+  "code": "tantum ",
+  "name": "slechts "
  },
  {
-  "latijn": "amare ",
-  "nederlands": "houden van "
+  "code": "amare ",
+  "name": "houden van "
  },
  {
-  "latijn": "celebrare ",
-  "nederlands": "(feest)vieren"
+  "code": "celebrare ",
+  "name": "(feest)vieren"
  },
  {
-  "latijn": "cupere ",
-  "nederlands": " cupio "
+  "code": "cupere ",
+  "name": " cupio "
  },
  {
-  "latijn": "exspectare ",
-  "nederlands": "wachten (op)"
+  "code": "exspectare ",
+  "name": "wachten (op)"
  },
  {
-  "latijn": "fugere ",
-  "nederlands": " fugio "
+  "code": "fugere ",
+  "name": " fugio "
  },
  {
-  "latijn": "gerere ",
-  "nederlands": "1 dragen 2 voeren"
+  "code": "gerere ",
+  "name": "1 dragen 2 voeren"
  },
  {
-  "latijn": "narrare ",
-  "nederlands": "vertellen"
+  "code": "narrare ",
+  "name": "vertellen"
  },
  {
-  "latijn": "pugnare ",
-  "nederlands": "vechten"
+  "code": "pugnare ",
+  "name": "vechten"
  },
  {
-  "latijn": "sedēre ",
-  "nederlands": "zitten"
+  "code": "sedēre ",
+  "name": "zitten"
  },
  {
-  "latijn": "vendere ",
-  "nederlands": "verkopen"
+  "code": "vendere ",
+  "name": "verkopen"
  },
  {
-  "latijn": "vincere ",
-  "nederlands": "(over)winnen"
+  "code": "vincere ",
+  "name": "(over)winnen"
  },
  {
-  "latijn": "bellum ",
-  "nederlands": "oorlog"
+  "code": "bellum ",
+  "name": "oorlog"
  },
  {
-  "latijn": "dux ",
-  "nederlands": " duces "
+  "code": "dux ",
+  "name": " duces "
  },
  {
-  "latijn": "equus ",
-  "nederlands": "paard"
+  "code": "equus ",
+  "name": "paard"
  },
  {
-  "latijn": "forum ",
-  "nederlands": "forum "
+  "code": "forum ",
+  "name": "forum "
  },
  {
-  "latijn": "pugna ",
-  "nederlands": "gevecht"
+  "code": "pugna ",
+  "name": "gevecht"
  },
  {
-  "latijn": "templum ",
-  "nederlands": "tempel"
+  "code": "templum ",
+  "name": "tempel"
  },
  {
-  "latijn": "victoria ",
-  "nederlands": "overwinning"
+  "code": "victoria ",
+  "name": "overwinning"
  },
  {
-  "latijn": "vita ",
-  "nederlands": "(het) leven"
+  "code": "vita ",
+  "name": "(het) leven"
  },
  {
-  "latijn": "pro + abl ",
-  "nederlands": "1 voor 2 in plaats van"
+  "code": "pro + abl ",
+  "name": "1 voor 2 in plaats van"
  },
  {
-  "latijn": "prope + acc ",
-  "nederlands": "dichtbij"
+  "code": "prope + acc ",
+  "name": "dichtbij"
  },
  {
-  "latijn": "interea ",
-  "nederlands": "intussen"
+  "code": "interea ",
+  "name": "intussen"
  },
  {
-  "latijn": "num ",
-  "nederlands": "(toch) zeker niet"
+  "code": "num ",
+  "name": "(toch) zeker niet"
  },
  {
-  "latijn": "scilicet ",
-  "nederlands": "natuurlijk"
+  "code": "scilicet ",
+  "name": "natuurlijk"
  },
  {
-  "latijn": "complēre ",
-  "nederlands": "vullen"
+  "code": "complēre ",
+  "name": "vullen"
  },
  {
-  "latijn": "curare + acc ",
-  "nederlands": "verzorgen "
+  "code": "curare + acc ",
+  "name": "verzorgen "
  },
  {
-  "latijn": "emere ",
-  "nederlands": "kopen"
+  "code": "emere ",
+  "name": "kopen"
  },
  {
-  "latijn": "habēre ",
-  "nederlands": "hebben"
+  "code": "habēre ",
+  "name": "hebben"
  },
  {
-  "latijn": "incipere ",
-  "nederlands": " incipio "
+  "code": "incipere ",
+  "name": " incipio "
  },
  {
-  "latijn": "manēre ",
-  "nederlands": "blijven"
+  "code": "manēre ",
+  "name": "blijven"
  },
  {
-  "latijn": "respondēre ",
-  "nederlands": "antwoorden"
+  "code": "respondēre ",
+  "name": "antwoorden"
  },
  {
-  "latijn": "rogare ",
-  "nederlands": "vragen"
+  "code": "rogare ",
+  "name": "vragen"
  },
  {
-  "latijn": "vetare ",
-  "nederlands": "verbieden"
+  "code": "vetare ",
+  "name": "verbieden"
  },
  {
-  "latijn": "filia ",
-  "nederlands": "dochter"
+  "code": "filia ",
+  "name": "dochter"
  },
  {
-  "latijn": "initium ",
-  "nederlands": "begin"
+  "code": "initium ",
+  "name": "begin"
  },
  {
-  "latijn": "pecunia ",
-  "nederlands": "geld"
+  "code": "pecunia ",
+  "name": "geld"
  },
  {
-  "latijn": "poculum ",
-  "nederlands": "beker"
+  "code": "poculum ",
+  "name": "beker"
  },
  {
-  "latijn": "soror ",
-  "nederlands": " sorores "
+  "code": "soror ",
+  "name": " sorores "
  },
  {
-  "latijn": "spectator ",
-  "nederlands": " -ores "
+  "code": "spectator ",
+  "name": " -ores "
  },
  {
-  "latijn": "via ",
-  "nederlands": "weg "
+  "code": "via ",
+  "name": "weg "
  },
  {
-  "latijn": "ante + acc ",
-  "nederlands": "voor"
+  "code": "ante + acc ",
+  "name": "voor"
  },
  {
-  "latijn": "sub + abl ",
-  "nederlands": "onder"
+  "code": "sub + abl ",
+  "name": "onder"
  },
  {
-  "latijn": "aut ",
-  "nederlands": "of"
+  "code": "aut ",
+  "name": "of"
  },
  {
-  "latijn": "fortasse ",
-  "nederlands": "misschien"
+  "code": "fortasse ",
+  "name": "misschien"
  },
  {
-  "latijn": "hic ",
-  "nederlands": "hier"
+  "code": "hic ",
+  "name": "hier"
  },
  {
-  "latijn": "immo ",
-  "nederlands": "integendeel"
+  "code": "immo ",
+  "name": "integendeel"
  },
  {
-  "latijn": "nihil ",
-  "nederlands": "niets"
+  "code": "nihil ",
+  "name": "niets"
  },
  {
-  "latijn": "nonne ",
-  "nederlands": "(toch) zeker wel"
+  "code": "nonne ",
+  "name": "(toch) zeker wel"
  },
  {
-  "latijn": "quando ",
-  "nederlands": "wanneer"
+  "code": "quando ",
+  "name": "wanneer"
  },
  {
-  "latijn": "quod ",
-  "nederlands": "1 omdat 2 (datgene) wat"
+  "code": "quod ",
+  "name": "1 omdat 2 (datgene) wat"
  },
  {
-  "latijn": "claudere ",
-  "nederlands": "sluiten"
+  "code": "claudere ",
+  "name": "sluiten"
  },
  {
-  "latijn": "currere ",
-  "nederlands": "rennen"
+  "code": "currere ",
+  "name": "rennen"
  },
  {
-  "latijn": "finire ",
-  "nederlands": "beëindigen"
+  "code": "finire ",
+  "name": "beëindigen"
  },
  {
-  "latijn": "fluere ",
-  "nederlands": "stromen"
+  "code": "fluere ",
+  "name": "stromen"
  },
  {
-  "latijn": "gaudēre ",
-  "nederlands": "blij zijn"
+  "code": "gaudēre ",
+  "name": "blij zijn"
  },
  {
-  "latijn": "nuntiare ",
-  "nederlands": "berichten "
+  "code": "nuntiare ",
+  "name": "berichten "
  },
  {
-  "latijn": "posse ",
-  "nederlands": "kunnen"
+  "code": "posse ",
+  "name": "kunnen"
  },
  {
-  "latijn": "spectare ",
-  "nederlands": "kijken (naar)"
+  "code": "spectare ",
+  "name": "kijken (naar)"
  },
  {
-  "latijn": "superare ",
-  "nederlands": "1 overtreffen 2 overwinnen"
+  "code": "superare ",
+  "name": "1 overtreffen 2 overwinnen"
  },
  {
-  "latijn": "animal ",
-  "nederlands": " animalia "
+  "code": "animal ",
+  "name": " animalia "
  },
  {
-  "latijn": "nemo ",
-  "nederlands": " gen neminis "
+  "code": "nemo ",
+  "name": " gen neminis "
  },
  {
-  "latijn": "oculus ",
-  "nederlands": "oog"
+  "code": "oculus ",
+  "name": "oog"
  },
  {
-  "latijn": "sanguis ",
-  "nederlands": " gen -guinis "
+  "code": "sanguis ",
+  "name": " gen -guinis "
  },
  {
-  "latijn": "spectaculum ",
-  "nederlands": "voorstelling"
+  "code": "spectaculum ",
+  "name": "voorstelling"
  },
  {
-  "latijn": "cito bijw ",
-  "nederlands": "snel"
+  "code": "cito bijw ",
+  "name": "snel"
  },
  {
-  "latijn": "deinde ",
-  "nederlands": "daarna"
+  "code": "deinde ",
+  "name": "daarna"
  },
  {
-  "latijn": "domi ",
-  "nederlands": "thuis"
+  "code": "domi ",
+  "name": "thuis"
  },
  {
-  "latijn": "hodie ",
-  "nederlands": "vandaag"
+  "code": "hodie ",
+  "name": "vandaag"
  },
  {
-  "latijn": "ita ",
-  "nederlands": "zo"
+  "code": "ita ",
+  "name": "zo"
  },
  {
-  "latijn": "iterum ",
-  "nederlands": "weer "
+  "code": "iterum ",
+  "name": "weer "
  },
  {
-  "latijn": "numquam ",
-  "nederlands": "nooit"
+  "code": "numquam ",
+  "name": "nooit"
  },
  {
-  "latijn": "quid ",
-  "nederlands": "wat"
+  "code": "quid ",
+  "name": "wat"
  },
  {
-  "latijn": "quis ",
-  "nederlands": "wie"
+  "code": "quis ",
+  "name": "wie"
  },
  {
-  "latijn": "quo ",
-  "nederlands": "waarheen"
+  "code": "quo ",
+  "name": "waarheen"
  },
  {
-  "latijn": "ubique ",
-  "nederlands": "overal"
+  "code": "ubique ",
+  "name": "overal"
  },
  {
-  "latijn": "valde ",
-  "nederlands": "zeer "
+  "code": "valde ",
+  "name": "zeer "
  },
  {
-  "latijn": "pendēre ",
-  "nederlands": "hangen"
+  "code": "pendēre ",
+  "name": "hangen"
  },
  {
-  "latijn": "petere ",
-  "nederlands": "aanvallen"
+  "code": "petere ",
+  "name": "aanvallen"
  },
  {
-  "latijn": "procedere ",
-  "nederlands": "1 voortgaan 2 lopen"
+  "code": "procedere ",
+  "name": "1 voortgaan 2 lopen"
  },
  {
-  "latijn": "resistere ",
-  "nederlands": "weerstand bieden"
+  "code": "resistere ",
+  "name": "weerstand bieden"
  },
  {
-  "latijn": "salutare ",
-  "nederlands": "(be)groeten"
+  "code": "salutare ",
+  "name": "(be)groeten"
  },
  {
-  "latijn": "tenēre ",
-  "nederlands": "(vast)houden"
+  "code": "tenēre ",
+  "name": "(vast)houden"
  },
  {
-  "latijn": "vulnerare ",
-  "nederlands": "verwonden"
+  "code": "vulnerare ",
+  "name": "verwonden"
  },
  {
-  "latijn": "agmen ",
-  "nederlands": " agmina "
+  "code": "agmen ",
+  "name": " agmina "
  },
  {
-  "latijn": "caput ",
-  "nederlands": " capita "
+  "code": "caput ",
+  "name": " capita "
  },
  {
-  "latijn": "corpus ",
-  "nederlands": " corpora "
+  "code": "corpus ",
+  "name": " corpora "
  },
  {
-  "latijn": "homo ",
-  "nederlands": " homines "
+  "code": "homo ",
+  "name": " homines "
  },
  {
-  "latijn": "leo ",
-  "nederlands": " leones "
+  "code": "leo ",
+  "name": " leones "
  },
  {
-  "latijn": "pes ",
-  "nederlands": " pedes "
+  "code": "pes ",
+  "name": " pedes "
  },
  {
-  "latijn": "terra ",
-  "nederlands": "aarde "
+  "code": "terra ",
+  "name": "aarde "
  },
  {
-  "latijn": "umbra ",
-  "nederlands": "schaduw"
+  "code": "umbra ",
+  "name": "schaduw"
  },
  {
-  "latijn": "vinum ",
-  "nederlands": "wijn"
+  "code": "vinum ",
+  "name": "wijn"
  },
  {
-  "latijn": "a\/ab + abl ",
-  "nederlands": "1 vanaf 2 door"
+  "code": "a\/ab + abl ",
+  "name": "1 vanaf 2 door"
  },
  {
-  "latijn": "per + acc ",
-  "nederlands": "1 door(heen) 2 gedurende 3 over(heen)"
+  "code": "per + acc ",
+  "name": "1 door(heen) 2 gedurende 3 over(heen)"
  },
  {
-  "latijn": "enim ",
-  "nederlands": "immers "
+  "code": "enim ",
+  "name": "immers "
  },
  {
-  "latijn": "frustra ",
-  "nederlands": "tevergeefs"
+  "code": "frustra ",
+  "name": "tevergeefs"
  },
  {
-  "latijn": "longe ",
-  "nederlands": "ver (weg) "
+  "code": "longe ",
+  "name": "ver (weg) "
  },
  {
-  "latijn": "alere ",
-  "nederlands": "voeden"
+  "code": "alere ",
+  "name": "voeden"
  },
  {
-  "latijn": "effugere ",
-  "nederlands": " effugio (+ acc) "
+  "code": "effugere ",
+  "name": " effugio (+ acc) "
  },
  {
-  "latijn": "exstinguere ",
-  "nederlands": "blussen"
+  "code": "exstinguere ",
+  "name": "blussen"
  },
  {
-  "latijn": "omittere ",
-  "nederlands": "achterwege laten "
+  "code": "omittere ",
+  "name": "achterwege laten "
  },
  {
-  "latijn": "persuadēre + dat ",
-  "nederlands": "1 overhalen 2 overtuigen"
+  "code": "persuadēre + dat ",
+  "name": "1 overhalen 2 overtuigen"
  },
  {
-  "latijn": "effugi ",
-  "nederlands": "pf van effugere"
+  "code": "effugi ",
+  "name": "pf van effugere"
  },
  {
-  "latijn": "evasi ",
-  "nederlands": "pf van evadere"
+  "code": "evasi ",
+  "name": "pf van evadere"
  },
  {
-  "latijn": "persuasi ",
-  "nederlands": "pf van persuadēre"
+  "code": "persuasi ",
+  "name": "pf van persuadēre"
  },
  {
-  "latijn": "adulescens ",
-  "nederlands": " -entes "
+  "code": "adulescens ",
+  "name": " -entes "
  },
  {
-  "latijn": "bona mv ",
-  "nederlands": "goederen"
+  "code": "bona mv ",
+  "name": "goederen"
  },
  {
-  "latijn": "exitium ",
-  "nederlands": "ondergang"
+  "code": "exitium ",
+  "name": "ondergang"
  },
  {
-  "latijn": "fama ",
-  "nederlands": "1 gerucht 2 goede naam 3 slechte naam"
+  "code": "fama ",
+  "name": "1 gerucht 2 goede naam 3 slechte naam"
  },
  {
-  "latijn": "flamma ",
-  "nederlands": "vlam"
+  "code": "flamma ",
+  "name": "vlam"
  },
  {
-  "latijn": "incendium ",
-  "nederlands": "brand"
+  "code": "incendium ",
+  "name": "brand"
  },
  {
-  "latijn": "poeta ",
-  "nederlands": "dichter"
+  "code": "poeta ",
+  "name": "dichter"
  },
  {
-  "latijn": "salus ",
-  "nederlands": " gen salutis "
+  "code": "salus ",
+  "name": " gen salutis "
  },
  {
-  "latijn": "tardus ",
-  "nederlands": "1 traag 2 (te) laat"
+  "code": "tardus ",
+  "name": "1 traag 2 (te) laat"
  },
  {
-  "latijn": "hinc ",
-  "nederlands": "hiervandaan"
+  "code": "hinc ",
+  "name": "hiervandaan"
  },
  {
-  "latijn": "itaque ",
-  "nederlands": "dus"
+  "code": "itaque ",
+  "name": "dus"
  },
  {
-  "latijn": "aliquid ",
-  "nederlands": "iets"
+  "code": "aliquid ",
+  "name": "iets"
  },
  {
-  "latijn": "aliquis ",
-  "nederlands": "iemand"
+  "code": "aliquis ",
+  "name": "iemand"
  },
  {
-  "latijn": "gratias agere ",
-  "nederlands": "dank betuigen"
+  "code": "gratias agere ",
+  "name": "dank betuigen"
  },
  {
-  "latijn": "imponere ",
-  "nederlands": "plaatsen op "
+  "code": "imponere ",
+  "name": "plaatsen op "
  },
  {
-  "latijn": "perdere ",
-  "nederlands": "1 vernietigen 2 verliezen"
+  "code": "perdere ",
+  "name": "1 vernietigen 2 verliezen"
  },
  {
-  "latijn": "perire ",
-  "nederlands": "omkomen"
+  "code": "perire ",
+  "name": "omkomen"
  },
  {
-  "latijn": "dedidi ",
-  "nederlands": "pf van dedere"
+  "code": "dedidi ",
+  "name": "pf van dedere"
  },
  {
-  "latijn": "perdidi ",
-  "nederlands": "pf van perdere"
+  "code": "perdidi ",
+  "name": "pf van perdere"
  },
  {
-  "latijn": "perii ",
-  "nederlands": "pf van perire"
+  "code": "perii ",
+  "name": "pf van perire"
  },
  {
-  "latijn": "recepi ",
-  "nederlands": "pf van recipere"
+  "code": "recepi ",
+  "name": "pf van recipere"
  },
  {
-  "latijn": "fames ",
-  "nederlands": " gen famis "
+  "code": "fames ",
+  "name": " gen famis "
  },
  {
-  "latijn": "inopia ",
-  "nederlands": "1 gebrek 2 armoede"
+  "code": "inopia ",
+  "name": "1 gebrek 2 armoede"
  },
  {
-  "latijn": "sacerdos ",
-  "nederlands": " sacerdotes "
+  "code": "sacerdos ",
+  "name": " sacerdotes "
  },
  {
-  "latijn": "immensus ",
-  "nederlands": " -a "
+  "code": "immensus ",
+  "name": " -a "
  },
  {
-  "latijn": "sanctus ",
-  "nederlands": "1 heilig 2 onschendbaar"
+  "code": "sanctus ",
+  "name": "1 heilig 2 onschendbaar"
  },
  {
-  "latijn": "securus ",
-  "nederlands": " -a "
+  "code": "securus ",
+  "name": " -a "
  },
  {
-  "latijn": "sacer ",
-  "nederlands": " sacra "
+  "code": "sacer ",
+  "name": " sacra "
  },
  {
-  "latijn": "captivus ",
-  "nederlands": " -a "
+  "code": "captivus ",
+  "name": " -a "
  },
  {
-  "latijn": "aliqui ",
-  "nederlands": " aliqua "
+  "code": "aliqui ",
+  "name": " aliqua "
  },
  {
-  "latijn": "quidam ",
-  "nederlands": " quaedam "
+  "code": "quidam ",
+  "name": " quaedam "
  },
  {
-  "latijn": "quisque ",
-  "nederlands": " quaeque "
+  "code": "quisque ",
+  "name": " quaeque "
  },
  {
-  "latijn": "(non) quicquam ",
-  "nederlands": "(n)iets"
+  "code": "(non) quicquam ",
+  "name": "(n)iets"
  },
  {
-  "latijn": "(non) quisquam ",
-  "nederlands": "(n)iemand"
+  "code": "(non) quisquam ",
+  "name": "(n)iemand"
  },
  {
-  "latijn": "apparēre ",
-  "nederlands": "1 verschijnen 2 duidelijk zijn"
+  "code": "apparēre ",
+  "name": "1 verschijnen 2 duidelijk zijn"
  },
  {
-  "latijn": "augēre ",
-  "nederlands": "vergroten "
+  "code": "augēre ",
+  "name": "vergroten "
  },
  {
-  "latijn": "continēre ",
-  "nederlands": "1 bijeenhouden 2 bevatten"
+  "code": "continēre ",
+  "name": "1 bijeenhouden 2 bevatten"
  },
  {
-  "latijn": "instituere ",
-  "nederlands": "oprichten"
+  "code": "instituere ",
+  "name": "oprichten"
  },
  {
-  "latijn": "pergere ",
-  "nederlands": "doorgaan"
+  "code": "pergere ",
+  "name": "doorgaan"
  },
  {
-  "latijn": "studēre (+ dat) ",
-  "nederlands": "zijn best doen (voor)"
+  "code": "studēre (+ dat) ",
+  "name": "zijn best doen (voor)"
  },
  {
-  "latijn": "adfui ",
-  "nederlands": "pf van adesse"
+  "code": "adfui ",
+  "name": "pf van adesse"
  },
  {
-  "latijn": "decrevi ",
-  "nederlands": "pf van decernere"
+  "code": "decrevi ",
+  "name": "pf van decernere"
  },
  {
-  "latijn": "discessi ",
-  "nederlands": "pf van discedere"
+  "code": "discessi ",
+  "name": "pf van discedere"
  },
  {
-  "latijn": "perrexi ",
-  "nederlands": "pf van pergere"
+  "code": "perrexi ",
+  "name": "pf van pergere"
  },
  {
-  "latijn": "acceptus ",
-  "nederlands": "ppp van accipere"
+  "code": "acceptus ",
+  "name": "ppp van accipere"
  },
  {
-  "latijn": "cultus 4 ",
-  "nederlands": "1 verzorging "
+  "code": "cultus 4 ",
+  "name": "1 verzorging "
  },
  {
-  "latijn": "ingenium ",
-  "nederlands": "1 karakter 2 aanleg"
+  "code": "ingenium ",
+  "name": "1 karakter 2 aanleg"
  },
  {
-  "latijn": "oriens ",
-  "nederlands": " gen orientis "
+  "code": "oriens ",
+  "name": " gen orientis "
  },
  {
-  "latijn": "provincia ",
-  "nederlands": "provincie "
+  "code": "provincia ",
+  "name": "provincie "
  },
  {
-  "latijn": "saeculum ",
-  "nederlands": "tijdperk "
+  "code": "saeculum ",
+  "name": "tijdperk "
  },
  {
-  "latijn": "potens ",
-  "nederlands": " potent- "
+  "code": "potens ",
+  "name": " potent- "
  },
  {
-  "latijn": "an in vraag ",
-  "nederlands": "of"
+  "code": "an in vraag ",
+  "name": "of"
  },
  {
-  "latijn": "igitur ",
-  "nederlands": "dus"
+  "code": "igitur ",
+  "name": "dus"
  },
  {
-  "latijn": "utique ",
-  "nederlands": "hoe dan ook"
+  "code": "utique ",
+  "name": "hoe dan ook"
  },
  {
-  "latijn": "qualis ",
-  "nederlands": " -e 1 "
+  "code": "qualis ",
+  "name": " -e 1 "
  },
  {
-  "latijn": "ullus ",
-  "nederlands": " -a "
+  "code": "ullus ",
+  "name": " -a "
  },
  {
-  "latijn": "consulere ",
-  "nederlands": "1 beraadslagen 2 + acc raadplegen"
+  "code": "consulere ",
+  "name": "1 beraadslagen 2 + acc raadplegen"
  },
  {
-  "latijn": "convertere ",
-  "nederlands": "(om)draaien"
+  "code": "convertere ",
+  "name": "(om)draaien"
  },
  {
-  "latijn": "delectare ",
-  "nederlands": "blij maken"
+  "code": "delectare ",
+  "name": "blij maken"
  },
  {
-  "latijn": "mandare ",
-  "nederlands": "opdragen"
+  "code": "mandare ",
+  "name": "opdragen"
  },
  {
-  "latijn": "prohibēre (+ inf) ",
-  "nederlands": "verhinderen (om)"
+  "code": "prohibēre (+ inf) ",
+  "name": "verhinderen (om)"
  },
  {
-  "latijn": "statuere ",
-  "nederlands": "besluiten"
+  "code": "statuere ",
+  "name": "besluiten"
  },
  {
-  "latijn": "suadēre ",
-  "nederlands": "aanraden "
+  "code": "suadēre ",
+  "name": "aanraden "
  },
  {
-  "latijn": "turbare ",
-  "nederlands": "verstoren"
+  "code": "turbare ",
+  "name": "verstoren"
  },
  {
-  "latijn": "converti ",
-  "nederlands": "pf van convertere"
+  "code": "converti ",
+  "name": "pf van convertere"
  },
  {
-  "latijn": "statui ",
-  "nederlands": "pf van statuere"
+  "code": "statui ",
+  "name": "pf van statuere"
  },
  {
-  "latijn": "suasi ",
-  "nederlands": "pf van suadēre"
+  "code": "suasi ",
+  "name": "pf van suadēre"
  },
  {
-  "latijn": "consultus ",
-  "nederlands": "ppp van consulere"
+  "code": "consultus ",
+  "name": "ppp van consulere"
  },
  {
-  "latijn": "pressus ",
-  "nederlands": "ppp van premere"
+  "code": "pressus ",
+  "name": "ppp van premere"
  },
  {
-  "latijn": "periturus ",
-  "nederlands": "pfa van perire"
+  "code": "periturus ",
+  "name": "pfa van perire"
  },
  {
-  "latijn": "conspectus 4 ",
-  "nederlands": "aanblik"
+  "code": "conspectus 4 ",
+  "name": "aanblik"
  },
  {
-  "latijn": "legatus ",
-  "nederlands": "1 gezant 2 onderbevelhebber"
+  "code": "legatus ",
+  "name": "1 gezant 2 onderbevelhebber"
  },
  {
-  "latijn": "pons ",
-  "nederlands": " pontes "
+  "code": "pons ",
+  "name": " pontes "
  },
  {
-  "latijn": "quies ",
-  "nederlands": " gen quietis "
+  "code": "quies ",
+  "name": " gen quietis "
  },
  {
-  "latijn": "sedes ",
-  "nederlands": " sedes "
+  "code": "sedes ",
+  "name": " sedes "
  },
  {
-  "latijn": "vates ",
-  "nederlands": " vates "
+  "code": "vates ",
+  "name": " vates "
  },
  {
-  "latijn": "aureus ",
-  "nederlands": " -a "
+  "code": "aureus ",
+  "name": " -a "
  },
  {
-  "latijn": "extra ",
-  "nederlands": "1 + acc buiten 2 bijw buiten"
+  "code": "extra ",
+  "name": "1 + acc buiten 2 bijw buiten"
  },
  {
-  "latijn": "oportet ",
-  "nederlands": "het behoort"
+  "code": "oportet ",
+  "name": "het behoort"
  },
  {
-  "latijn": "conari ",
-  "nederlands": "proberen"
+  "code": "conari ",
+  "name": "proberen"
  },
  {
-  "latijn": "fiere ",
-  "nederlands": "1 (gemaakt) worden 2 gebeuren"
+  "code": "fiere ",
+  "name": "1 (gemaakt) worden 2 gebeuren"
  },
  {
-  "latijn": "fungi + abl ",
-  "nederlands": "verrichten "
+  "code": "fungi + abl ",
+  "name": "verrichten "
  },
  {
-  "latijn": "hortari ",
-  "nederlands": "aansporen"
+  "code": "hortari ",
+  "name": "aansporen"
  },
  {
-  "latijn": "loqui ",
-  "nederlands": "spreken"
+  "code": "loqui ",
+  "name": "spreken"
  },
  {
-  "latijn": "mirari ",
-  "nederlands": "1 zich verwonderen 2 bewonderen"
+  "code": "mirari ",
+  "name": "1 zich verwonderen 2 bewonderen"
  },
  {
-  "latijn": "mori ",
-  "nederlands": " morior "
+  "code": "mori ",
+  "name": " morior "
  },
  {
-  "latijn": "oriri ",
-  "nederlands": "ontstaan "
+  "code": "oriri ",
+  "name": "ontstaan "
  },
  {
-  "latijn": "pati ",
-  "nederlands": " patior "
+  "code": "pati ",
+  "name": " patior "
  },
  {
-  "latijn": "proficisci ",
-  "nederlands": "vertrekken"
+  "code": "proficisci ",
+  "name": "vertrekken"
  },
  {
-  "latijn": "reri ",
-  "nederlands": "menen"
+  "code": "reri ",
+  "name": "menen"
  },
  {
-  "latijn": "scribere ",
-  "nederlands": "schrijven"
+  "code": "scribere ",
+  "name": "schrijven"
  },
  {
-  "latijn": "spargere ",
-  "nederlands": "1 strooien 2 verspreiden"
+  "code": "spargere ",
+  "name": "1 strooien 2 verspreiden"
  },
  {
-  "latijn": "uti + abl ",
-  "nederlands": "gebruiken"
+  "code": "uti + abl ",
+  "name": "gebruiken"
  },
  {
-  "latijn": "vereri ",
-  "nederlands": "vrezen"
+  "code": "vereri ",
+  "name": "vrezen"
  },
  {
-  "latijn": "videri ",
-  "nederlands": "schijnen "
+  "code": "videri ",
+  "name": "schijnen "
  },
  {
-  "latijn": "locutus sum ",
-  "nederlands": "pf van loqui"
+  "code": "locutus sum ",
+  "name": "pf van loqui"
  },
  {
-  "latijn": "ortus sum ",
-  "nederlands": "pf van oriri"
+  "code": "ortus sum ",
+  "name": "pf van oriri"
  },
  {
-  "latijn": "passus sum ",
-  "nederlands": "pf van pati"
+  "code": "passus sum ",
+  "name": "pf van pati"
  },
  {
-  "latijn": "profectus sum ",
-  "nederlands": "pf van profisci"
+  "code": "profectus sum ",
+  "name": "pf van profisci"
  },
  {
-  "latijn": "ratus sum ",
-  "nederlands": "pf van reri"
+  "code": "ratus sum ",
+  "name": "pf van reri"
  },
  {
-  "latijn": "scripsi ",
-  "nederlands": "pf van scribere"
+  "code": "scripsi ",
+  "name": "pf van scribere"
  },
  {
-  "latijn": "sparsus ",
-  "nederlands": "ppp van spargere"
+  "code": "sparsus ",
+  "name": "ppp van spargere"
  },
  {
-  "latijn": "ventus ",
-  "nederlands": "wind"
+  "code": "ventus ",
+  "name": "wind"
  },
  {
-  "latijn": "epistula ",
-  "nederlands": "brief"
+  "code": "epistula ",
+  "name": "brief"
  },
  {
-  "latijn": "aggredi ",
-  "nederlands": " aggredior "
+  "code": "aggredi ",
+  "name": " aggredior "
  },
  {
-  "latijn": "frui + abl ",
-  "nederlands": "genieten van"
+  "code": "frui + abl ",
+  "name": "genieten van"
  },
  {
-  "latijn": "morari ",
-  "nederlands": "1 verblijven 2 + acc vertragen"
+  "code": "morari ",
+  "name": "1 verblijven 2 + acc vertragen"
  },
  {
-  "latijn": "oblivisci ",
-  "nederlands": "vergeten"
+  "code": "oblivisci ",
+  "name": "vergeten"
  },
  {
-  "latijn": "pertinēre ",
-  "nederlands": "ad + acc 1 zich uitstrekken over 2 betrekking hebben op"
+  "code": "pertinēre ",
+  "name": "ad + acc 1 zich uitstrekken over 2 betrekking hebben op"
  },
  {
-  "latijn": "queri (+ acc) ",
-  "nederlands": "klagen (over)"
+  "code": "queri (+ acc) ",
+  "name": "klagen (over)"
  },
  {
-  "latijn": "solēre ",
-  "nederlands": "gewend zijn "
+  "code": "solēre ",
+  "name": "gewend zijn "
  },
  {
-  "latijn": "tueri ",
-  "nederlands": "1 bekijken "
+  "code": "tueri ",
+  "name": "1 bekijken "
  },
  {
-  "latijn": "aggressus sum ",
-  "nederlands": "pf van aggredi"
+  "code": "aggressus sum ",
+  "name": "pf van aggredi"
  },
  {
-  "latijn": "oblitus sum ",
-  "nederlands": "pf van oblivisci"
+  "code": "oblitus sum ",
+  "name": "pf van oblivisci"
  },
  {
-  "latijn": "questus sum ",
-  "nederlands": "pf van queri"
+  "code": "questus sum ",
+  "name": "pf van queri"
  },
  {
-  "latijn": "usus sum ",
-  "nederlands": "pf van uti"
+  "code": "usus sum ",
+  "name": "pf van uti"
  },
  {
-  "latijn": "amissus ",
-  "nederlands": "ppp van amittere"
+  "code": "amissus ",
+  "name": "ppp van amittere"
  },
  {
-  "latijn": "rutus ",
-  "nederlands": "ppp van ruere"
+  "code": "rutus ",
+  "name": "ppp van ruere"
  },
  {
-  "latijn": "scriptus ",
-  "nederlands": "ppp van scribere"
+  "code": "scriptus ",
+  "name": "ppp van scribere"
  },
  {
-  "latijn": "fons ",
-  "nederlands": " fontes "
+  "code": "fons ",
+  "name": " fontes "
  },
  {
-  "latijn": "lapis ",
-  "nederlands": " lapides "
+  "code": "lapis ",
+  "name": " lapides "
  },
  {
-  "latijn": "varius ",
-  "nederlands": " -a "
+  "code": "varius ",
+  "name": " -a "
  },
  {
-  "latijn": "quietus ",
-  "nederlands": " -a "
+  "code": "quietus ",
+  "name": " -a "
  },
  {
-  "latijn": "potius ",
-  "nederlands": "1 liever 2 eerder"
+  "code": "potius ",
+  "name": "1 liever 2 eerder"
  },
  {
-  "latijn": "alii ... alii mv ",
-  "nederlands": "sommige(n) ... andere(n)"
+  "code": "alii ... alii mv ",
+  "name": "sommige(n) ... andere(n)"
  },
  {
-  "latijn": "adhibēre ",
-  "nederlands": "toepassen "
+  "code": "adhibēre ",
+  "name": "toepassen "
  },
  {
-  "latijn": "complecti ",
-  "nederlands": "omarmen"
+  "code": "complecti ",
+  "name": "omarmen"
  },
  {
-  "latijn": "egredi ",
-  "nederlands": " egredior "
+  "code": "egredi ",
+  "name": " egredior "
  },
  {
-  "latijn": "ignoscere + dat ",
-  "nederlands": "vergeven"
+  "code": "ignoscere + dat ",
+  "name": "vergeven"
  },
  {
-  "latijn": "prohibēre ",
-  "nederlands": "1 (a\/ab) + abl afhouden van 2 + inf verhinderen"
+  "code": "prohibēre ",
+  "name": "1 (a\/ab) + abl afhouden van 2 + inf verhinderen"
  },
  {
-  "latijn": "rumpere ",
-  "nederlands": "breken"
+  "code": "rumpere ",
+  "name": "breken"
  },
  {
-  "latijn": "sequi ",
-  "nederlands": "volgen"
+  "code": "sequi ",
+  "name": "volgen"
  },
  {
-  "latijn": "vehere ",
-  "nederlands": "1 *act* vervoeren 2 *pas* reizen"
+  "code": "vehere ",
+  "name": "1 *act* vervoeren 2 *pas* reizen"
  },
  {
-  "latijn": "complexus sum ",
-  "nederlands": "pf van complecti"
+  "code": "complexus sum ",
+  "name": "pf van complecti"
  },
  {
-  "latijn": "mansi ",
-  "nederlands": "pf van manēre"
+  "code": "mansi ",
+  "name": "pf van manēre"
  },
  {
-  "latijn": "secutus sum ",
-  "nederlands": "pf van sequi"
+  "code": "secutus sum ",
+  "name": "pf van sequi"
  },
  {
-  "latijn": "egressus sum ",
-  "nederlands": "pf van egredi"
+  "code": "egressus sum ",
+  "name": "pf van egredi"
  },
  {
-  "latijn": "mortuus sum ",
-  "nederlands": "pf van mori"
+  "code": "mortuus sum ",
+  "name": "pf van mori"
  },
  {
-  "latijn": "solutus ",
-  "nederlands": "ppp van solvere"
+  "code": "solutus ",
+  "name": "ppp van solvere"
  },
  {
-  "latijn": "relictus ",
-  "nederlands": "ppp van relinquere"
+  "code": "relictus ",
+  "name": "ppp van relinquere"
  },
  {
-  "latijn": "victus ",
-  "nederlands": "ppp van vincere"
+  "code": "victus ",
+  "name": "ppp van vincere"
  },
  {
-  "latijn": "avus ",
-  "nederlands": "grootvader"
+  "code": "avus ",
+  "name": "grootvader"
  },
  {
-  "latijn": "coniunx ",
-  "nederlands": " coniuges "
+  "code": "coniunx ",
+  "name": " coniuges "
  },
  {
-  "latijn": "currus 4 ",
-  "nederlands": "wagen"
+  "code": "currus 4 ",
+  "name": "wagen"
  },
  {
-  "latijn": "lacrima ",
-  "nederlands": "traan"
+  "code": "lacrima ",
+  "name": "traan"
  },
  {
-  "latijn": "lex ",
-  "nederlands": " leges "
+  "code": "lex ",
+  "name": " leges "
  },
  {
-  "latijn": "necessitas ",
-  "nederlands": " -tates "
+  "code": "necessitas ",
+  "name": " -tates "
  },
  {
-  "latijn": "praeceptum ",
-  "nederlands": "voorschrift"
+  "code": "praeceptum ",
+  "name": "voorschrift"
  },
  {
-  "latijn": "usus 4 ",
-  "nederlands": "1 gebruik 2 nut"
+  "code": "usus 4 ",
+  "name": "1 gebruik 2 nut"
  },
  {
-  "latijn": "cingere ",
-  "nederlands": "omringen"
+  "code": "cingere ",
+  "name": "omringen"
  },
  {
-  "latijn": "furere ",
-  "nederlands": "tekeer gaan"
+  "code": "furere ",
+  "name": "tekeer gaan"
  },
  {
-  "latijn": "latēre ",
-  "nederlands": "verborgen zijn"
+  "code": "latēre ",
+  "name": "verborgen zijn"
  },
  {
-  "latijn": "reddere ",
-  "nederlands": "teruggeven"
+  "code": "reddere ",
+  "name": "teruggeven"
  },
  {
-  "latijn": "reperire ",
-  "nederlands": "vinden "
+  "code": "reperire ",
+  "name": "vinden "
  },
  {
-  "latijn": "sternere ",
-  "nederlands": "1 neergooien 2 bedekken"
+  "code": "sternere ",
+  "name": "1 neergooien 2 bedekken"
  },
  {
-  "latijn": "rettuli ",
-  "nederlands": "pf van referre"
+  "code": "rettuli ",
+  "name": "pf van referre"
  },
  {
-  "latijn": "repperi ",
-  "nederlands": "pf van reperire"
+  "code": "repperi ",
+  "name": "pf van reperire"
  },
  {
-  "latijn": "redditus ",
-  "nederlands": "ppp van reddere"
+  "code": "redditus ",
+  "name": "ppp van reddere"
  },
  {
-  "latijn": "repertus ",
-  "nederlands": "ppp van reperire"
+  "code": "repertus ",
+  "name": "ppp van reperire"
  },
  {
-  "latijn": "aestus 4 ",
-  "nederlands": "1 hitte 2 branding"
+  "code": "aestus 4 ",
+  "name": "1 hitte 2 branding"
  },
  {
-  "latijn": "classis ",
-  "nederlands": " classes "
+  "code": "classis ",
+  "name": " classes "
  },
  {
-  "latijn": "fluctus 4 ",
-  "nederlands": "golf"
+  "code": "fluctus 4 ",
+  "name": "golf"
  },
  {
-  "latijn": "hiems ",
-  "nederlands": " hiemes "
+  "code": "hiems ",
+  "name": " hiemes "
  },
  {
-  "latijn": "navis ",
-  "nederlands": " naves "
+  "code": "navis ",
+  "name": " naves "
  },
  {
-  "latijn": "oceanus ",
-  "nederlands": "oceaan "
+  "code": "oceanus ",
+  "name": "oceaan "
  },
  {
-  "latijn": "pectus ",
-  "nederlands": " pectora "
+  "code": "pectus ",
+  "name": " pectora "
  },
  {
-  "latijn": "signum ",
-  "nederlands": "1 teken 2 veldteken"
+  "code": "signum ",
+  "name": "1 teken 2 veldteken"
  },
  {
-  "latijn": "unda ",
-  "nederlands": "golf"
+  "code": "unda ",
+  "name": "golf"
  },
  {
-  "latijn": "incertus ",
-  "nederlands": " -a "
+  "code": "incertus ",
+  "name": " -a "
  },
  {
-  "latijn": "modo ... modo ",
-  "nederlands": "nu eens ... dan weer"
+  "code": "modo ... modo ",
+  "name": "nu eens ... dan weer"
  },
  {
-  "latijn": "undique ",
-  "nederlands": "van alle kanten"
+  "code": "undique ",
+  "name": "van alle kanten"
  },
  {
-  "latijn": "vale ",
-  "nederlands": " mv valete "
+  "code": "vale ",
+  "name": " mv valete "
  },
  {
-  "latijn": "adducere ",
-  "nederlands": "brengen (naar)"
+  "code": "adducere ",
+  "name": "brengen (naar)"
  },
  {
-  "latijn": "adipisci ",
-  "nederlands": "verkrijgen"
+  "code": "adipisci ",
+  "name": "verkrijgen"
  },
  {
-  "latijn": "committere ",
-  "nederlands": "1 toevertrouwen 2 *scelus* begaan 3 *proelium* aangaan"
+  "code": "committere ",
+  "name": "1 toevertrouwen 2 *scelus* begaan 3 *proelium* aangaan"
  },
  {
-  "latijn": "imperare ",
-  "nederlands": "bevelen "
+  "code": "imperare ",
+  "name": "bevelen "
  },
  {
-  "latijn": "poscere ",
-  "nederlands": "(op)eisen"
+  "code": "poscere ",
+  "name": "(op)eisen"
  },
  {
-  "latijn": "potiri + abl ",
-  "nederlands": "zich meester maken van"
+  "code": "potiri + abl ",
+  "name": "zich meester maken van"
  },
  {
-  "latijn": "desii ",
-  "nederlands": "pf van desinere"
+  "code": "desii ",
+  "name": "pf van desinere"
  },
  {
-  "latijn": "obsedi ",
-  "nederlands": "pf van obsidēre"
+  "code": "obsedi ",
+  "name": "pf van obsidēre"
  },
  {
-  "latijn": "profui ",
-  "nederlands": "pf van prodesse"
+  "code": "profui ",
+  "name": "pf van prodesse"
  },
  {
-  "latijn": "fractus ",
-  "nederlands": "ppp van frangere"
+  "code": "fractus ",
+  "name": "ppp van frangere"
  },
  {
-  "latijn": "factus ",
-  "nederlands": "ppp van facere"
+  "code": "factus ",
+  "name": "ppp van facere"
  },
  {
-  "latijn": "inventus ",
-  "nederlands": "ppp van invenire"
+  "code": "inventus ",
+  "name": "ppp van invenire"
  },
  {
-  "latijn": "futurum ",
-  "nederlands": "pfa van esse"
+  "code": "futurum ",
+  "name": "pfa van esse"
  },
  {
-  "latijn": "cohors ",
-  "nederlands": " cohortes "
+  "code": "cohors ",
+  "name": " cohortes "
  },
  {
-  "latijn": "condicio ",
-  "nederlands": " -ones "
+  "code": "condicio ",
+  "name": " -ones "
  },
  {
-  "latijn": "exilium ",
-  "nederlands": "verbanning "
+  "code": "exilium ",
+  "name": "verbanning "
  },
  {
-  "latijn": "facinus ",
-  "nederlands": " facinora "
+  "code": "facinus ",
+  "name": " facinora "
  },
  {
-  "latijn": "militia ",
-  "nederlands": "krijgsdienst"
+  "code": "militia ",
+  "name": "krijgsdienst"
  },
  {
-  "latijn": "ripa ",
-  "nederlands": "oever"
+  "code": "ripa ",
+  "name": "oever"
  },
  {
-  "latijn": "scelus ",
-  "nederlands": " scelera "
+  "code": "scelus ",
+  "name": " scelera "
  },
  {
-  "latijn": "alienus ",
-  "nederlands": " -a "
+  "code": "alienus ",
+  "name": " -a "
  },
  {
-  "latijn": "proprius ",
-  "nederlands": " -a "
+  "code": "proprius ",
+  "name": " -a "
  },
  {
-  "latijn": "causa gen + ",
-  "nederlands": "wegens"
+  "code": "causa gen + ",
+  "name": "wegens"
  },
  {
-  "latijn": "ac ",
-  "nederlands": "en"
+  "code": "ac ",
+  "name": "en"
  },
  {
-  "latijn": "uterque ",
-  "nederlands": " utraque "
+  "code": "uterque ",
+  "name": " utraque "
  },
  {
-  "latijn": "auferre ",
-  "nederlands": "1 wegnemen 2 *se* zich verwijderen"
+  "code": "auferre ",
+  "name": "1 wegnemen 2 *se* zich verwijderen"
  },
  {
-  "latijn": "detrahere ",
-  "nederlands": "wegnemen "
+  "code": "detrahere ",
+  "name": "wegnemen "
  },
  {
-  "latijn": "errare ",
-  "nederlands": "1 zwerven 2 zich vergissen"
+  "code": "errare ",
+  "name": "1 zwerven 2 zich vergissen"
  },
  {
-  "latijn": "exigere ",
-  "nederlands": "1 verdrijven 2 (op)eisen"
+  "code": "exigere ",
+  "name": "1 verdrijven 2 (op)eisen"
  },
  {
-  "latijn": "expellere ",
-  "nederlands": "verdrijven"
+  "code": "expellere ",
+  "name": "verdrijven"
  },
  {
-  "latijn": "fallere ",
-  "nederlands": "1 bedriegen 2 ontgaan"
+  "code": "fallere ",
+  "name": "1 bedriegen 2 ontgaan"
  },
  {
-  "latijn": "parere ",
-  "nederlands": " pario "
+  "code": "parere ",
+  "name": " pario "
  },
  {
-  "latijn": "tegere ",
-  "nederlands": "bedekken"
+  "code": "tegere ",
+  "name": "bedekken"
  },
  {
-  "latijn": "abstuli ",
-  "nederlands": "pf van auferre"
+  "code": "abstuli ",
+  "name": "pf van auferre"
  },
  {
-  "latijn": "expuli ",
-  "nederlands": "pf van expellere"
+  "code": "expuli ",
+  "name": "pf van expellere"
  },
  {
-  "latijn": "fefelli ",
-  "nederlands": "pf van fallere"
+  "code": "fefelli ",
+  "name": "pf van fallere"
  },
  {
-  "latijn": "nolui ",
-  "nederlands": "pf van nolle"
+  "code": "nolui ",
+  "name": "pf van nolle"
  },
  {
-  "latijn": "peperi ",
-  "nederlands": "pf van parere"
+  "code": "peperi ",
+  "name": "pf van parere"
  },
  {
-  "latijn": "receptus ",
-  "nederlands": "pf van recipere"
+  "code": "receptus ",
+  "name": "pf van recipere"
  },
  {
-  "latijn": "sedi ",
-  "nederlands": "pf van sedēre"
+  "code": "sedi ",
+  "name": "pf van sedēre"
  },
  {
-  "latijn": "exegi ",
-  "nederlands": "pf van exigere"
+  "code": "exegi ",
+  "name": "pf van exigere"
  },
  {
-  "latijn": "detractus ",
-  "nederlands": "ppp van detrahere"
+  "code": "detractus ",
+  "name": "ppp van detrahere"
  },
  {
-  "latijn": "expulsus ",
-  "nederlands": "ppp van expellere"
+  "code": "expulsus ",
+  "name": "ppp van expellere"
  },
  {
-  "latijn": "positus ",
-  "nederlands": "ppp van ponere"
+  "code": "positus ",
+  "name": "ppp van ponere"
  },
  {
-  "latijn": "insula ",
-  "nederlands": "eiland"
+  "code": "insula ",
+  "name": "eiland"
  },
  {
-  "latijn": "modus ",
-  "nederlands": "1 manier 2 maat"
+  "code": "modus ",
+  "name": "1 manier 2 maat"
  },
  {
-  "latijn": "negotium ",
-  "nederlands": "bezigheid "
+  "code": "negotium ",
+  "name": "bezigheid "
  },
  {
-  "latijn": "semel ",
-  "nederlands": "eenmaal"
+  "code": "semel ",
+  "name": "eenmaal"
  },
  {
-  "latijn": "appropinquare + dat ",
-  "nederlands": "naderen"
+  "code": "appropinquare + dat ",
+  "name": "naderen"
  },
  {
-  "latijn": "consistere ",
-  "nederlands": "blijven staan"
+  "code": "consistere ",
+  "name": "blijven staan"
  },
  {
-  "latijn": "ire ",
-  "nederlands": "gaan"
+  "code": "ire ",
+  "name": "gaan"
  },
  {
-  "latijn": "negare ",
-  "nederlands": "1 ontkennen 2 weigeren"
+  "code": "negare ",
+  "name": "1 ontkennen 2 weigeren"
  },
  {
-  "latijn": "scire ",
-  "nederlands": "weten"
+  "code": "scire ",
+  "name": "weten"
  },
  {
-  "latijn": "terrēre ",
-  "nederlands": "bang maken"
+  "code": "terrēre ",
+  "name": "bang maken"
  },
  {
-  "latijn": "vertere ",
-  "nederlands": "keren "
+  "code": "vertere ",
+  "name": "keren "
  },
  {
-  "latijn": "vitare ",
-  "nederlands": "vermijden"
+  "code": "vitare ",
+  "name": "vermijden"
  },
  {
-  "latijn": "causa ",
-  "nederlands": "reden"
+  "code": "causa ",
+  "name": "reden"
  },
  {
-  "latijn": "hora ",
-  "nederlands": "uur"
+  "code": "hora ",
+  "name": "uur"
  },
  {
-  "latijn": "verbum ",
-  "nederlands": "woord"
+  "code": "verbum ",
+  "name": "woord"
  },
  {
-  "latijn": "victor ",
-  "nederlands": " victores "
+  "code": "victor ",
+  "name": " victores "
  },
  {
-  "latijn": "contra + acc ",
-  "nederlands": "tegen(over)"
+  "code": "contra + acc ",
+  "name": "tegen(over)"
  },
  {
-  "latijn": "sine ",
-  "nederlands": "+ abl zonder"
+  "code": "sine ",
+  "name": "+ abl zonder"
  },
  {
-  "latijn": "adhuc ",
-  "nederlands": "nog "
+  "code": "adhuc ",
+  "name": "nog "
  },
  {
-  "latijn": "antea ",
-  "nederlands": "eerder"
+  "code": "antea ",
+  "name": "eerder"
  },
  {
-  "latijn": "centum ",
-  "nederlands": "honderd"
+  "code": "centum ",
+  "name": "honderd"
  },
  {
-  "latijn": "domum ",
-  "nederlands": "naar huis"
+  "code": "domum ",
+  "name": "naar huis"
  },
  {
-  "latijn": "id nom\/acc ",
-  "nederlands": "dit"
+  "code": "id nom\/acc ",
+  "name": "dit"
  },
  {
-  "latijn": "nondum ",
-  "nederlands": "nog niet"
+  "code": "nondum ",
+  "name": "nog niet"
  },
  {
-  "latijn": "nunc ",
-  "nederlands": "nu"
+  "code": "nunc ",
+  "name": "nu"
  },
  {
-  "latijn": "quidem ... sed ",
-  "nederlands": "wel(iswaar) ... maar"
+  "code": "quidem ... sed ",
+  "name": "wel(iswaar) ... maar"
  },
  {
-  "latijn": "tunc ",
-  "nederlands": "toen "
+  "code": "tunc ",
+  "name": "toen "
  },
  {
-  "latijn": "cedere ",
-  "nederlands": "1 (aan de kant) gaan 2 toegeven"
+  "code": "cedere ",
+  "name": "1 (aan de kant) gaan 2 toegeven"
  },
  {
-  "latijn": "ducere ",
-  "nederlands": "leiden "
+  "code": "ducere ",
+  "name": "leiden "
  },
  {
-  "latijn": "parare ",
-  "nederlands": "klaarmaken"
+  "code": "parare ",
+  "name": "klaarmaken"
  },
  {
-  "latijn": "regere ",
-  "nederlands": "besturen "
+  "code": "regere ",
+  "name": "besturen "
  },
  {
-  "latijn": "tangere ",
-  "nederlands": "aanraken"
+  "code": "tangere ",
+  "name": "aanraken"
  },
  {
-  "latijn": "cecidi ",
-  "nederlands": "pf van cadere"
+  "code": "cecidi ",
+  "name": "pf van cadere"
  },
  {
-  "latijn": "constiti ",
-  "nederlands": "pf van consistere"
+  "code": "constiti ",
+  "name": "pf van consistere"
  },
  {
-  "latijn": "dixi ",
-  "nederlands": "pf van dicere"
+  "code": "dixi ",
+  "name": "pf van dicere"
  },
  {
-  "latijn": "duxi ",
-  "nederlands": "pf van ducere"
+  "code": "duxi ",
+  "name": "pf van ducere"
  },
  {
-  "latijn": "feci ",
-  "nederlands": "pf van facere"
+  "code": "feci ",
+  "name": "pf van facere"
  },
  {
-  "latijn": "fui ",
-  "nederlands": "pf van esse"
+  "code": "fui ",
+  "name": "pf van esse"
  },
  {
-  "latijn": "incepi ",
-  "nederlands": "pf van incipere"
+  "code": "incepi ",
+  "name": "pf van incipere"
  },
  {
-  "latijn": "potui ",
-  "nederlands": "pf van posse"
+  "code": "potui ",
+  "name": "pf van posse"
  },
  {
-  "latijn": "respondi ",
-  "nederlands": "pf van respondēre"
+  "code": "respondi ",
+  "name": "pf van respondēre"
  },
  {
-  "latijn": "rexi ",
-  "nederlands": "pf van regere"
+  "code": "rexi ",
+  "name": "pf van regere"
  },
  {
-  "latijn": "risi ",
-  "nederlands": "pf van ridēre"
+  "code": "risi ",
+  "name": "pf van ridēre"
  },
  {
-  "latijn": "tetigi ",
-  "nederlands": "pf van tangere"
+  "code": "tetigi ",
+  "name": "pf van tangere"
  },
  {
-  "latijn": "veni ",
-  "nederlands": "pf van venire"
+  "code": "veni ",
+  "name": "pf van venire"
  },
  {
-  "latijn": "vici ",
-  "nederlands": "pf van vincere"
+  "code": "vici ",
+  "name": "pf van vincere"
  },
  {
-  "latijn": "certamen ",
-  "nederlands": " certamina "
+  "code": "certamen ",
+  "name": " certamina "
  },
  {
-  "latijn": "iniura ",
-  "nederlands": "onrecht"
+  "code": "iniura ",
+  "name": "onrecht"
  },
  {
-  "latijn": "heri ",
-  "nederlands": "gisteren"
+  "code": "heri ",
+  "name": "gisteren"
  },
  {
-  "latijn": "postquam + pf ",
-  "nederlands": "nadat"
+  "code": "postquam + pf ",
+  "name": "nadat"
  },
  {
-  "latijn": "saepe ",
-  "nederlands": "vaak"
+  "code": "saepe ",
+  "name": "vaak"
  },
  {
-  "latijn": "satis ",
-  "nederlands": "genoeg"
+  "code": "satis ",
+  "name": "genoeg"
  },
  {
-  "latijn": "capere ",
-  "nederlands": " capio "
+  "code": "capere ",
+  "name": " capio "
  },
  {
-  "latijn": "credere ",
-  "nederlands": "geloven"
+  "code": "credere ",
+  "name": "geloven"
  },
  {
-  "latijn": "habitare ",
-  "nederlands": "(be)wonen"
+  "code": "habitare ",
+  "name": "(be)wonen"
  },
  {
-  "latijn": "cucurri ",
-  "nederlands": "pf van currere"
+  "code": "cucurri ",
+  "name": "pf van currere"
  },
  {
-  "latijn": "dedi ",
-  "nederlands": "pf van dare"
+  "code": "dedi ",
+  "name": "pf van dare"
  },
  {
-  "latijn": "fugi ",
-  "nederlands": "pf van fugere"
+  "code": "fugi ",
+  "name": "pf van fugere"
  },
  {
-  "latijn": "ostendi ",
-  "nederlands": "pf van ostendere"
+  "code": "ostendi ",
+  "name": "pf van ostendere"
  },
  {
-  "latijn": "posui ",
-  "nederlands": "pf van ponere"
+  "code": "posui ",
+  "name": "pf van ponere"
  },
  {
-  "latijn": "sustuli ",
-  "nederlands": "pf van tollere"
+  "code": "sustuli ",
+  "name": "pf van tollere"
  },
  {
-  "latijn": "vidi ",
-  "nederlands": "pf van vidēre"
+  "code": "vidi ",
+  "name": "pf van vidēre"
  },
  {
-  "latijn": "vixi ",
-  "nederlands": "pf van vivere"
+  "code": "vixi ",
+  "name": "pf van vivere"
  },
  {
-  "latijn": "aedificium ",
-  "nederlands": "gebouw"
+  "code": "aedificium ",
+  "name": "gebouw"
  },
  {
-  "latijn": "dominus ",
-  "nederlands": "meester "
+  "code": "dominus ",
+  "name": "meester "
  },
  {
-  "latijn": "domus ",
-  "nederlands": "huis"
+  "code": "domus ",
+  "name": "huis"
  },
  {
-  "latijn": "exemplum ",
-  "nederlands": "voorbeeld"
+  "code": "exemplum ",
+  "name": "voorbeeld"
  },
  {
-  "latijn": "fabula ",
-  "nederlands": "verhaal"
+  "code": "fabula ",
+  "name": "verhaal"
  },
  {
-  "latijn": "hospes ",
-  "nederlands": " hospites "
+  "code": "hospes ",
+  "name": " hospites "
  },
  {
-  "latijn": "iter ",
-  "nederlands": " itinera "
+  "code": "iter ",
+  "name": " itinera "
  },
  {
-  "latijn": "senex ",
-  "nederlands": " senes "
+  "code": "senex ",
+  "name": " senes "
  },
  {
-  "latijn": "sermo ",
-  "nederlands": " sermones "
+  "code": "sermo ",
+  "name": " sermones "
  },
  {
-  "latijn": "apud + acc ",
-  "nederlands": "bij"
+  "code": "apud + acc ",
+  "name": "bij"
  },
  {
-  "latijn": "trans + acc ",
-  "nederlands": "over "
+  "code": "trans + acc ",
+  "name": "over "
  },
  {
-  "latijn": "priusquam ",
-  "nederlands": "voordat"
+  "code": "priusquam ",
+  "name": "voordat"
  },
  {
-  "latijn": "quondam ",
-  "nederlands": "eens "
+  "code": "quondam ",
+  "name": "eens "
  },
  {
-  "latijn": "Romam ",
-  "nederlands": "naar Rome"
+  "code": "Romam ",
+  "name": "naar Rome"
  },
  {
-  "latijn": "amittere ",
-  "nederlands": "verliezen"
+  "code": "amittere ",
+  "name": "verliezen"
  },
  {
-  "latijn": "amisi ",
-  "nederlands": "pf van amittere"
+  "code": "amisi ",
+  "name": "pf van amittere"
  },
  {
-  "latijn": "amor ",
-  "nederlands": " amores "
+  "code": "amor ",
+  "name": " amores "
  },
  {
-  "latijn": "consilium ",
-  "nederlands": "1 plan 2 besluit"
+  "code": "consilium ",
+  "name": "1 plan 2 besluit"
  },
  {
-  "latijn": "liberi mv ",
-  "nederlands": "kinderen"
+  "code": "liberi mv ",
+  "name": "kinderen"
  },
  {
-  "latijn": "maritus ",
-  "nederlands": "echtgenoot"
+  "code": "maritus ",
+  "name": "echtgenoot"
  },
  {
-  "latijn": "matrona ",
-  "nederlands": "matrona "
+  "code": "matrona ",
+  "name": "matrona "
  },
  {
-  "latijn": "mors ",
-  "nederlands": " mortes "
+  "code": "mors ",
+  "name": " mortes "
  },
  {
-  "latijn": "tempus ",
-  "nederlands": " tempora "
+  "code": "tempus ",
+  "name": " tempora "
  },
  {
-  "latijn": "bonus ",
-  "nederlands": " -a "
+  "code": "bonus ",
+  "name": " -a "
  },
  {
-  "latijn": "carus ",
-  "nederlands": " -a "
+  "code": "carus ",
+  "name": " -a "
  },
  {
-  "latijn": "contentus ",
-  "nederlands": " -a "
+  "code": "contentus ",
+  "name": " -a "
  },
  {
-  "latijn": "laetus ",
-  "nederlands": " -a "
+  "code": "laetus ",
+  "name": " -a "
  },
  {
-  "latijn": "longus ",
-  "nederlands": " -a "
+  "code": "longus ",
+  "name": " -a "
  },
  {
-  "latijn": "magnus ",
-  "nederlands": " -a "
+  "code": "magnus ",
+  "name": " -a "
  },
  {
-  "latijn": "miser ",
-  "nederlands": " -sera "
+  "code": "miser ",
+  "name": " -sera "
  },
  {
-  "latijn": "multus ",
-  "nederlands": " -a "
+  "code": "multus ",
+  "name": " -a "
  },
  {
-  "latijn": "novus ",
-  "nederlands": " -a "
+  "code": "novus ",
+  "name": " -a "
  },
  {
-  "latijn": "parvus ",
-  "nederlands": " -a "
+  "code": "parvus ",
+  "name": " -a "
  },
  {
-  "latijn": "pulcher ",
-  "nederlands": " -chra "
+  "code": "pulcher ",
+  "name": " -chra "
  },
  {
-  "latijn": "Romanus (-a ",
-  "nederlands": " -um) "
+  "code": "Romanus (-a ",
+  "name": " -um) "
  },
  {
-  "latijn": "unus ",
-  "nederlands": " -a "
+  "code": "unus ",
+  "name": " -a "
  },
  {
-  "latijn": "meus ",
-  "nederlands": " -a "
+  "code": "meus ",
+  "name": " -a "
  },
  {
-  "latijn": "tuus ",
-  "nederlands": " -a "
+  "code": "tuus ",
+  "name": " -a "
  },
  {
-  "latijn": "suus ",
-  "nederlands": " -a "
+  "code": "suus ",
+  "name": " -a "
  },
  {
-  "latijn": "noster ",
-  "nederlands": " -stra "
+  "code": "noster ",
+  "name": " -stra "
  },
  {
-  "latijn": "vester ",
-  "nederlands": " -stra "
+  "code": "vester ",
+  "name": " -stra "
  },
  {
-  "latijn": "adesse ",
-  "nederlands": "aanwezig zijn (bij)"
+  "code": "adesse ",
+  "name": "aanwezig zijn (bij)"
  },
  {
-  "latijn": "desinere ",
-  "nederlands": "ophouden"
+  "code": "desinere ",
+  "name": "ophouden"
  },
  {
-  "latijn": "invitare ",
-  "nederlands": "uitnodigen"
+  "code": "invitare ",
+  "name": "uitnodigen"
  },
  {
-  "latijn": "accessi ",
-  "nederlands": "pf van accedere"
+  "code": "accessi ",
+  "name": "pf van accedere"
  },
  {
-  "latijn": "protexi ",
-  "nederlands": "pf van protegere"
+  "code": "protexi ",
+  "name": "pf van protegere"
  },
  {
-  "latijn": "tradidi ",
-  "nederlands": "pf van tradere"
+  "code": "tradidi ",
+  "name": "pf van tradere"
  },
  {
-  "latijn": "cena ",
-  "nederlands": "maaltijd"
+  "code": "cena ",
+  "name": "maaltijd"
  },
  {
-  "latijn": "familia ",
-  "nederlands": "1 huishouden 2 familie"
+  "code": "familia ",
+  "name": "1 huishouden 2 familie"
  },
  {
-  "latijn": "gaudium ",
-  "nederlands": "vreugde"
+  "code": "gaudium ",
+  "name": "vreugde"
  },
  {
-  "latijn": "parentes ",
-  "nederlands": "ouders"
+  "code": "parentes ",
+  "name": "ouders"
  },
  {
-  "latijn": "vox ",
-  "nederlands": " voces "
+  "code": "vox ",
+  "name": " voces "
  },
  {
-  "latijn": "brevis ",
-  "nederlands": " -e "
+  "code": "brevis ",
+  "name": " -e "
  },
  {
-  "latijn": "communis ",
-  "nederlands": " -e "
+  "code": "communis ",
+  "name": " -e "
  },
  {
-  "latijn": "dulcis ",
-  "nederlands": " -e "
+  "code": "dulcis ",
+  "name": " -e "
  },
  {
-  "latijn": "fortis ",
-  "nederlands": " -e "
+  "code": "fortis ",
+  "name": " -e "
  },
  {
-  "latijn": "illustris ",
-  "nederlands": " -e "
+  "code": "illustris ",
+  "name": " -e "
  },
  {
-  "latijn": "ingens ",
-  "nederlands": " ingent- "
+  "code": "ingens ",
+  "name": " ingent- "
  },
  {
-  "latijn": "omnes mv m\/v ",
-  "nederlands": "1 bnw alle 2 znw allen"
+  "code": "omnes mv m\/v ",
+  "name": "1 bnw alle 2 znw allen"
  },
  {
-  "latijn": "omnia mv o ",
-  "nederlands": "1 bnw alle 2 znw alles"
+  "code": "omnia mv o ",
+  "name": "1 bnw alle 2 znw alles"
  },
  {
-  "latijn": "omnis ",
-  "nederlands": " -e ev "
+  "code": "omnis ",
+  "name": " -e ev "
  },
  {
-  "latijn": "optimus ",
-  "nederlands": " -a "
+  "code": "optimus ",
+  "name": " -a "
  },
  {
-  "latijn": "similis ",
-  "nederlands": " -e "
+  "code": "similis ",
+  "name": " -e "
  },
  {
-  "latijn": "ergo ",
-  "nederlands": "dus "
+  "code": "ergo ",
+  "name": "dus "
  },
  {
-  "latijn": "non iam ",
-  "nederlands": "niet meer"
+  "code": "non iam ",
+  "name": "niet meer"
  },
  {
-  "latijn": "postea ",
-  "nederlands": "later"
+  "code": "postea ",
+  "name": "later"
  },
  {
-  "latijn": "accendere ",
-  "nederlands": "aansteken "
+  "code": "accendere ",
+  "name": "aansteken "
  },
  {
-  "latijn": "apparēre ",
-  "nederlands": "verschijnen"
+  "code": "apparēre ",
+  "name": "verschijnen"
  },
  {
-  "latijn": "carēre + abl ",
-  "nederlands": "missen"
+  "code": "carēre + abl ",
+  "name": "missen"
  },
  {
-  "latijn": "exire ",
-  "nederlands": "naar buiten gaan"
+  "code": "exire ",
+  "name": "naar buiten gaan"
  },
  {
-  "latijn": "invenire ",
-  "nederlands": "vinden"
+  "code": "invenire ",
+  "name": "vinden"
  },
  {
-  "latijn": "quaerere ",
-  "nederlands": "1 zoeken 2 vragen"
+  "code": "quaerere ",
+  "name": "1 zoeken 2 vragen"
  },
  {
-  "latijn": "accendi ",
-  "nederlands": "pf van accendere"
+  "code": "accendi ",
+  "name": "pf van accendere"
  },
  {
-  "latijn": "exii ",
-  "nederlands": "pf van exire"
+  "code": "exii ",
+  "name": "pf van exire"
  },
  {
-  "latijn": "ii ",
-  "nederlands": "pf van ire"
+  "code": "ii ",
+  "name": "pf van ire"
  },
  {
-  "latijn": "inveni ",
-  "nederlands": "pf van invenire"
+  "code": "inveni ",
+  "name": "pf van invenire"
  },
  {
-  "latijn": "processi ",
-  "nederlands": "pf van procedere"
+  "code": "processi ",
+  "name": "pf van procedere"
  },
  {
-  "latijn": "funus ",
-  "nederlands": " funera "
+  "code": "funus ",
+  "name": " funera "
  },
  {
-  "latijn": "vestis ",
-  "nederlands": " vestes "
+  "code": "vestis ",
+  "name": " vestes "
  },
  {
-  "latijn": "umbra ",
-  "nederlands": "1 schaduw 2 schim (van een overledene)"
+  "code": "umbra ",
+  "name": "1 schaduw 2 schim (van een overledene)"
  },
  {
-  "latijn": "acer ",
-  "nederlands": " acris "
+  "code": "acer ",
+  "name": " acris "
  },
  {
-  "latijn": "celer ",
-  "nederlands": " celeris "
+  "code": "celer ",
+  "name": " celeris "
  },
  {
-  "latijn": "felix ",
-  "nederlands": " felic- "
+  "code": "felix ",
+  "name": " felic- "
  },
  {
-  "latijn": "iratus ",
-  "nederlands": " -a "
+  "code": "iratus ",
+  "name": " -a "
  },
  {
-  "latijn": "lenis ",
-  "nederlands": " -e "
+  "code": "lenis ",
+  "name": " -e "
  },
  {
-  "latijn": "malus ",
-  "nederlands": " -a "
+  "code": "malus ",
+  "name": " -a "
  },
  {
-  "latijn": "nudus ",
-  "nederlands": " -a "
+  "code": "nudus ",
+  "name": " -a "
  },
  {
-  "latijn": "secundus ",
-  "nederlands": " -a "
+  "code": "secundus ",
+  "name": " -a "
  },
  {
-  "latijn": "timidus ",
-  "nederlands": " -a "
+  "code": "timidus ",
+  "name": " -a "
  },
  {
-  "latijn": "tristis ",
-  "nederlands": " -e "
+  "code": "tristis ",
+  "name": " -e "
  },
  {
-  "latijn": "bene bijw ",
-  "nederlands": "goed"
+  "code": "bene bijw ",
+  "name": "goed"
  },
  {
-  "latijn": "etiam ",
-  "nederlands": "zelfs"
+  "code": "etiam ",
+  "name": "zelfs"
  },
  {
-  "latijn": "magnopere ",
-  "nederlands": "1 zeer 2 erg"
+  "code": "magnopere ",
+  "name": "1 zeer 2 erg"
  },
  {
-  "latijn": "paulum ",
-  "nederlands": "een beetje"
+  "code": "paulum ",
+  "name": "een beetje"
  },
  {
-  "latijn": "agere ",
-  "nederlands": "1 leiden "
+  "code": "agere ",
+  "name": "1 leiden "
  },
  {
-  "latijn": "legere ",
-  "nederlands": "lezen"
+  "code": "legere ",
+  "name": "lezen"
  },
  {
-  "latijn": "mittere ",
-  "nederlands": "sturen"
+  "code": "mittere ",
+  "name": "sturen"
  },
  {
-  "latijn": "putare ",
-  "nederlands": "1 menen 2 vinden "
+  "code": "putare ",
+  "name": "1 menen 2 vinden "
  },
  {
-  "latijn": "credidi ",
-  "nederlands": "pf van credere"
+  "code": "credidi ",
+  "name": "pf van credere"
  },
  {
-  "latijn": "emi ",
-  "nederlands": "pf van emere"
+  "code": "emi ",
+  "name": "pf van emere"
  },
  {
-  "latijn": "iussi ",
-  "nederlands": "pf van iubēre"
+  "code": "iussi ",
+  "name": "pf van iubēre"
  },
  {
-  "latijn": "littera ",
-  "nederlands": "letter"
+  "code": "littera ",
+  "name": "letter"
  },
  {
-  "latijn": "onus ",
-  "nederlands": " onera "
+  "code": "onus ",
+  "name": " onera "
  },
  {
-  "latijn": "pretium ",
-  "nederlands": "prijs"
+  "code": "pretium ",
+  "name": "prijs"
  },
  {
-  "latijn": "ceteri ",
-  "nederlands": " -ae "
+  "code": "ceteri ",
+  "name": " -ae "
  },
  {
-  "latijn": "difficilis ",
-  "nederlands": " -e "
+  "code": "difficilis ",
+  "name": " -e "
  },
  {
-  "latijn": "facilis ",
-  "nederlands": " -e "
+  "code": "facilis ",
+  "name": " -e "
  },
  {
-  "latijn": "fidus ",
-  "nederlands": " -a "
+  "code": "fidus ",
+  "name": " -a "
  },
  {
-  "latijn": "gravis ",
-  "nederlands": " -e "
+  "code": "gravis ",
+  "name": " -e "
  },
  {
-  "latijn": "humilis ",
-  "nederlands": "1 laag 2 nederig"
+  "code": "humilis ",
+  "name": "1 laag 2 nederig"
  },
  {
-  "latijn": "maior ",
-  "nederlands": "groter"
+  "code": "maior ",
+  "name": "groter"
  },
  {
-  "latijn": "melior ",
-  "nederlands": "beter"
+  "code": "melior ",
+  "name": "beter"
  },
  {
-  "latijn": "minimus ",
-  "nederlands": " -a "
+  "code": "minimus ",
+  "name": " -a "
  },
  {
-  "latijn": "peior ",
-  "nederlands": "slechter"
+  "code": "peior ",
+  "name": "slechter"
  },
  {
-  "latijn": "magis ",
-  "nederlands": "meer"
+  "code": "magis ",
+  "name": "meer"
  },
  {
-  "latijn": "minime ",
-  "nederlands": "1 (aller)minst 2 helemaal niet"
+  "code": "minime ",
+  "name": "1 (aller)minst 2 helemaal niet"
  },
  {
-  "latijn": "multo bijw ",
-  "nederlands": "veel"
+  "code": "multo bijw ",
+  "name": "veel"
  },
  {
-  "latijn": "quam ",
-  "nederlands": "1 com ... dan 2 sup zo ... mogelijk"
+  "code": "quam ",
+  "name": "1 com ... dan 2 sup zo ... mogelijk"
  },
  {
-  "latijn": "alius ",
-  "nederlands": " -a "
+  "code": "alius ",
+  "name": " -a "
  },
  {
-  "latijn": "fugere ",
-  "nederlands": " fugio "
+  "code": "fugere ",
+  "name": " fugio "
  },
  {
-  "latijn": "movēre ",
-  "nederlands": "bewegen"
+  "code": "movēre ",
+  "name": "bewegen"
  },
  {
-  "latijn": "parcere + dat ",
-  "nederlands": "sparen"
+  "code": "parcere + dat ",
+  "name": "sparen"
  },
  {
-  "latijn": "tribuere ",
-  "nederlands": "toekennen"
+  "code": "tribuere ",
+  "name": "toekennen"
  },
  {
-  "latijn": "cepi ",
-  "nederlands": "pf van capere"
+  "code": "cepi ",
+  "name": "pf van capere"
  },
  {
-  "latijn": "peperci ",
-  "nederlands": "pf van parcere"
+  "code": "peperci ",
+  "name": "pf van parcere"
  },
  {
-  "latijn": "cibus ",
-  "nederlands": "voedsel"
+  "code": "cibus ",
+  "name": "voedsel"
  },
  {
-  "latijn": "clamor ",
-  "nederlands": " clamores "
+  "code": "clamor ",
+  "name": " clamores "
  },
  {
-  "latijn": "libertas ",
-  "nederlands": " libertates "
+  "code": "libertas ",
+  "name": " libertates "
  },
  {
-  "latijn": "lingua ",
-  "nederlands": "1 tong 2 taal"
+  "code": "lingua ",
+  "name": "1 tong 2 taal"
  },
  {
-  "latijn": "silva ",
-  "nederlands": "bos"
+  "code": "silva ",
+  "name": "bos"
  },
  {
-  "latijn": "vulnus ",
-  "nederlands": " vulnera "
+  "code": "vulnus ",
+  "name": " vulnera "
  },
  {
-  "latijn": "altus ",
-  "nederlands": " -a "
+  "code": "altus ",
+  "name": " -a "
  },
  {
-  "latijn": "audax ",
-  "nederlands": " audac- "
+  "code": "audax ",
+  "name": " audac- "
  },
  {
-  "latijn": "crudelis ",
-  "nederlands": " -e "
+  "code": "crudelis ",
+  "name": " -e "
  },
  {
-  "latijn": "ferox ",
-  "nederlands": " feroc- "
+  "code": "ferox ",
+  "name": " feroc- "
  },
  {
-  "latijn": "lentus ",
-  "nederlands": " -a "
+  "code": "lentus ",
+  "name": " -a "
  },
  {
-  "latijn": "maximus ",
-  "nederlands": " -a "
+  "code": "maximus ",
+  "name": " -a "
  },
  {
-  "latijn": "parum ",
-  "nederlands": "niet genoeg"
+  "code": "parum ",
+  "name": "niet genoeg"
  },
  {
-  "latijn": "que ",
-  "nederlands": "en"
+  "code": "que ",
+  "name": "en"
  },
  {
-  "latijn": "quia ",
-  "nederlands": "omdat"
+  "code": "quia ",
+  "name": "omdat"
  },
  {
-  "latijn": "se acc ",
-  "nederlands": "zich(zelf)"
+  "code": "se acc ",
+  "name": "zich(zelf)"
  },
  {
-  "latijn": "audēre ",
-  "nederlands": "durven"
+  "code": "audēre ",
+  "name": "durven"
  },
  {
-  "latijn": "consituere ",
-  "nederlands": "besluiten"
+  "code": "consituere ",
+  "name": "besluiten"
  },
  {
-  "latijn": "crescere ",
-  "nederlands": "groeien"
+  "code": "crescere ",
+  "name": "groeien"
  },
  {
-  "latijn": "relinquere ",
-  "nederlands": "1 verlaten 2 achterlaten"
+  "code": "relinquere ",
+  "name": "1 verlaten 2 achterlaten"
  },
  {
-  "latijn": "redire ",
-  "nederlands": "teruggaan"
+  "code": "redire ",
+  "name": "teruggaan"
  },
  {
-  "latijn": "constitui ",
-  "nederlands": "pf van constituere"
+  "code": "constitui ",
+  "name": "pf van constituere"
  },
  {
-  "latijn": "misi ",
-  "nederlands": "pf van mittere"
+  "code": "misi ",
+  "name": "pf van mittere"
  },
  {
-  "latijn": "reliqui ",
-  "nederlands": "pf van relinquere"
+  "code": "reliqui ",
+  "name": "pf van relinquere"
  },
  {
-  "latijn": "ager ",
-  "nederlands": " mv agri "
+  "code": "ager ",
+  "name": " mv agri "
  },
  {
-  "latijn": "consul ",
-  "nederlands": " consules "
+  "code": "consul ",
+  "name": " consules "
  },
  {
-  "latijn": "fuga ",
-  "nederlands": "vlucht"
+  "code": "fuga ",
+  "name": "vlucht"
  },
  {
-  "latijn": "legio ",
-  "nederlands": " legiones v "
+  "code": "legio ",
+  "name": " legiones v "
  },
  {
-  "latijn": "litus ",
-  "nederlands": " litora "
+  "code": "litus ",
+  "name": " litora "
  },
  {
-  "latijn": "mille ",
-  "nederlands": " milia "
+  "code": "mille ",
+  "name": " milia "
  },
  {
-  "latijn": "numerus ",
-  "nederlands": "aantal"
+  "code": "numerus ",
+  "name": "aantal"
  },
  {
-  "latijn": "minor ",
-  "nederlands": "kleiner"
+  "code": "minor ",
+  "name": "kleiner"
  },
  {
-  "latijn": "minus ",
-  "nederlands": "minder"
+  "code": "minus ",
+  "name": "minder"
  },
  {
-  "latijn": "pauci ",
-  "nederlands": " -ae "
+  "code": "pauci ",
+  "name": " -ae "
  },
  {
-  "latijn": "plurimi ",
-  "nederlands": " -ae "
+  "code": "plurimi ",
+  "name": " -ae "
  },
  {
-  "latijn": "plus ",
-  "nederlands": " plures com "
+  "code": "plus ",
+  "name": " plures com "
  },
  {
-  "latijn": "cotidie ",
-  "nederlands": "dagelijks"
+  "code": "cotidie ",
+  "name": "dagelijks"
  },
  {
-  "latijn": "maxime ",
-  "nederlands": "1 het meest 2 vooral"
+  "code": "maxime ",
+  "name": "1 het meest 2 vooral"
  },
  {
-  "latijn": "neque ",
-  "nederlands": "1 en niet "
+  "code": "neque ",
+  "name": "1 en niet "
  },
  {
-  "latijn": "Romae ",
-  "nederlands": "te Rome "
+  "code": "Romae ",
+  "name": "te Rome "
  },
  {
-  "latijn": "arcessere ",
-  "nederlands": "laten komen"
+  "code": "arcessere ",
+  "name": "laten komen"
  },
  {
-  "latijn": "coniungere ",
-  "nederlands": "verbinden"
+  "code": "coniungere ",
+  "name": "verbinden"
  },
  {
-  "latijn": "decet + acc ",
-  "nederlands": "(het) past bij"
+  "code": "decet + acc ",
+  "name": "(het) past bij"
  },
  {
-  "latijn": "laudare ",
-  "nederlands": "prijzen"
+  "code": "laudare ",
+  "name": "prijzen"
  },
  {
-  "latijn": "noscere ",
-  "nederlands": "1 te weten komen 2 leren kennen"
+  "code": "noscere ",
+  "name": "1 te weten komen 2 leren kennen"
  },
  {
-  "latijn": "novisse ",
-  "nederlands": "1 weten 2 kennen"
+  "code": "novisse ",
+  "name": "1 weten 2 kennen"
  },
  {
-  "latijn": "arcessivi ",
-  "nederlands": "pf van arcessere"
+  "code": "arcessivi ",
+  "name": "pf van arcessere"
  },
  {
-  "latijn": "novi ",
-  "nederlands": "pf van noscere"
+  "code": "novi ",
+  "name": "pf van noscere"
  },
  {
-  "latijn": "dolus ",
-  "nederlands": "list"
+  "code": "dolus ",
+  "name": "list"
  },
  {
-  "latijn": "opus ",
-  "nederlands": " opera "
+  "code": "opus ",
+  "name": " opera "
  },
  {
-  "latijn": "sentientia ",
-  "nederlands": "1 mening 2 uitspraak "
+  "code": "sentientia ",
+  "name": "1 mening 2 uitspraak "
  },
  {
-  "latijn": "virtus ",
-  "nederlands": " virtutes "
+  "code": "virtus ",
+  "name": " virtutes "
  },
  {
-  "latijn": "clarus ",
-  "nederlands": " -a "
+  "code": "clarus ",
+  "name": " -a "
  },
  {
-  "latijn": "stultus ",
-  "nederlands": " -a "
+  "code": "stultus ",
+  "name": " -a "
  },
  {
-  "latijn": "-ne ",
-  "nederlands": "vraagwoord (niet vertalen)"
+  "code": "-ne ",
+  "name": "vraagwoord (niet vertalen)"
  },
  {
-  "latijn": "at ",
-  "nederlands": "maar"
+  "code": "at ",
+  "name": "maar"
  },
  {
-  "latijn": "quomodo ",
-  "nederlands": "hoe"
+  "code": "quomodo ",
+  "name": "hoe"
  },
  {
-  "latijn": "utrum....an ",
-  "nederlands": "(of)...of"
+  "code": "utrum....an ",
+  "name": "(of)...of"
  },
  {
-  "latijn": "vero ",
-  "nederlands": "1 inderdaad 2 echter"
+  "code": "vero ",
+  "name": "1 inderdaad 2 echter"
  },
  {
-  "latijn": "ipse ",
-  "nederlands": " "
+  "code": "ipse ",
+  "name": " "
  },
  {
-  "latijn": "aspicere ",
-  "nederlands": " aspicio "
+  "code": "aspicere ",
+  "name": " aspicio "
  },
  {
-  "latijn": "conspicere ",
-  "nederlands": " conspicio "
+  "code": "conspicere ",
+  "name": " conspicio "
  },
  {
-  "latijn": "deficere ",
-  "nederlands": " dificio "
+  "code": "deficere ",
+  "name": " dificio "
  },
  {
-  "latijn": "intellegere ",
-  "nederlands": "begrijpen"
+  "code": "intellegere ",
+  "name": "begrijpen"
  },
  {
-  "latijn": "iuvat (me) ",
-  "nederlands": "het doet (me) plezier"
+  "code": "iuvat (me) ",
+  "name": "het doet (me) plezier"
  },
  {
-  "latijn": "laborare ",
-  "nederlands": "hard werken"
+  "code": "laborare ",
+  "name": "hard werken"
  },
  {
-  "latijn": "possidēre ",
-  "nederlands": "bezitten"
+  "code": "possidēre ",
+  "name": "bezitten"
  },
  {
-  "latijn": "sumere ",
-  "nederlands": "nemen"
+  "code": "sumere ",
+  "name": "nemen"
  },
  {
-  "latijn": "aspexi ",
-  "nederlands": "pf van aspicere"
+  "code": "aspexi ",
+  "name": "pf van aspicere"
  },
  {
-  "latijn": "conspexi ",
-  "nederlands": "pf van conspicere"
+  "code": "conspexi ",
+  "name": "pf van conspicere"
  },
  {
-  "latijn": "sumpsi ",
-  "nederlands": "pf van sumere"
+  "code": "sumpsi ",
+  "name": "pf van sumere"
  },
  {
-  "latijn": "verti ",
-  "nederlands": "pf van vertere"
+  "code": "verti ",
+  "name": "pf van vertere"
  },
  {
-  "latijn": "forma ",
-  "nederlands": "gestalte "
+  "code": "forma ",
+  "name": "gestalte "
  },
  {
-  "latijn": "mensa ",
-  "nederlands": "tafel"
+  "code": "mensa ",
+  "name": "tafel"
  },
  {
-  "latijn": "misericordia ",
-  "nederlands": "medelijden"
+  "code": "misericordia ",
+  "name": "medelijden"
  },
  {
-  "latijn": "serva ",
-  "nederlands": "slavin"
+  "code": "serva ",
+  "name": "slavin"
  },
  {
-  "latijn": "cuncti ",
-  "nederlands": " -ae "
+  "code": "cuncti ",
+  "name": " -ae "
  },
  {
-  "latijn": "dives ",
-  "nederlands": " divit- "
+  "code": "dives ",
+  "name": " divit- "
  },
  {
-  "latijn": "cum voegwoord ",
-  "nederlands": "wanneer "
+  "code": "cum voegwoord ",
+  "name": "wanneer "
  },
  {
-  "latijn": "libenter ",
-  "nederlands": "graag"
+  "code": "libenter ",
+  "name": "graag"
  },
  {
-  "latijn": "nisi ",
-  "nederlands": "als niet"
+  "code": "nisi ",
+  "name": "als niet"
  },
  {
-  "latijn": "praeterea ",
-  "nederlands": "bovendien"
+  "code": "praeterea ",
+  "name": "bovendien"
  },
  {
-  "latijn": "quamquam ",
-  "nederlands": "hoewel"
+  "code": "quamquam ",
+  "name": "hoewel"
  },
  {
-  "latijn": "ut ",
-  "nederlands": "1 zoals 2 +pf zodra"
+  "code": "ut ",
+  "name": "1 zoals 2 +pf zodra"
  },
  {
-  "latijn": "condere ",
-  "nederlands": "1 stichten 2 verbergen"
+  "code": "condere ",
+  "name": "1 stichten 2 verbergen"
  },
  {
-  "latijn": "dubitare ",
-  "nederlands": "aarzelen "
+  "code": "dubitare ",
+  "name": "aarzelen "
  },
  {
-  "latijn": "inquit ",
-  "nederlands": "1 hij\/zij zegt 2 hij\/zij zei"
+  "code": "inquit ",
+  "name": "1 hij\/zij zegt 2 hij\/zij zei"
  },
  {
-  "latijn": "mutare ",
-  "nederlands": "veranderen"
+  "code": "mutare ",
+  "name": "veranderen"
  },
  {
-  "latijn": "punire ",
-  "nederlands": "straffen"
+  "code": "punire ",
+  "name": "straffen"
  },
  {
-  "latijn": "repetere ",
-  "nederlands": "herhalen"
+  "code": "repetere ",
+  "name": "herhalen"
  },
  {
-  "latijn": "sentire ",
-  "nederlands": "1 merken "
+  "code": "sentire ",
+  "name": "1 merken "
  },
  {
-  "latijn": "spernere ",
-  "nederlands": "afwijzen"
+  "code": "spernere ",
+  "name": "afwijzen"
  },
  {
-  "latijn": "condidi ",
-  "nederlands": "pf van condere"
+  "code": "condidi ",
+  "name": "pf van condere"
  },
  {
-  "latijn": "cupivi ",
-  "nederlands": "pf van cupere"
+  "code": "cupivi ",
+  "name": "pf van cupere"
  },
  {
-  "latijn": "movi ",
-  "nederlands": "pf van movēre"
+  "code": "movi ",
+  "name": "pf van movēre"
  },
  {
-  "latijn": "repetivi ",
-  "nederlands": "pf van repetere"
+  "code": "repetivi ",
+  "name": "pf van repetere"
  },
  {
-  "latijn": "sensi ",
-  "nederlands": "pf van sentire"
+  "code": "sensi ",
+  "name": "pf van sentire"
  },
  {
-  "latijn": "sprevi ",
-  "nederlands": "pf van spernere"
+  "code": "sprevi ",
+  "name": "pf van spernere"
  },
  {
-  "latijn": "dolor ",
-  "nederlands": " dolores "
+  "code": "dolor ",
+  "name": " dolores "
  },
  {
-  "latijn": "imago ",
-  "nederlands": " imagines "
+  "code": "imago ",
+  "name": " imagines "
  },
  {
-  "latijn": "iuvenis ",
-  "nederlands": " iuvenes "
+  "code": "iuvenis ",
+  "name": " iuvenes "
  },
  {
-  "latijn": "superbia ",
-  "nederlands": "trots "
+  "code": "superbia ",
+  "name": "trots "
  },
  {
-  "latijn": "mollis ",
-  "nederlands": " -e "
+  "code": "mollis ",
+  "name": " -e "
  },
  {
-  "latijn": "ultimus ",
-  "nederlands": " -a "
+  "code": "ultimus ",
+  "name": " -a "
  },
  {
-  "latijn": "ob + acc ",
-  "nederlands": "wegens"
+  "code": "ob + acc ",
+  "name": "wegens"
  },
  {
-  "latijn": "donec ",
-  "nederlands": "totdat"
+  "code": "donec ",
+  "name": "totdat"
  },
  {
-  "latijn": "nusquam ",
-  "nederlands": "nergens"
+  "code": "nusquam ",
+  "name": "nergens"
  },
  {
-  "latijn": "ultro ",
-  "nederlands": "uit zichzelf"
+  "code": "ultro ",
+  "name": "uit zichzelf"
  },
  {
-  "latijn": "nullus ",
-  "nederlands": " -a "
+  "code": "nullus ",
+  "name": " -a "
  },
  {
-  "latijn": "qui ",
-  "nederlands": " quae "
+  "code": "qui ",
+  "name": " quae "
  },
  {
-  "latijn": "accidere ",
-  "nederlands": "gebeuren"
+  "code": "accidere ",
+  "name": "gebeuren"
  },
  {
-  "latijn": "canere ",
-  "nederlands": "zingen"
+  "code": "canere ",
+  "name": "zingen"
  },
  {
-  "latijn": "colligere ",
-  "nederlands": "verzamelen"
+  "code": "colligere ",
+  "name": "verzamelen"
  },
  {
-  "latijn": "fundere ",
-  "nederlands": "gieten "
+  "code": "fundere ",
+  "name": "gieten "
  },
  {
-  "latijn": "laedere ",
-  "nederlands": "beledigen "
+  "code": "laedere ",
+  "name": "beledigen "
  },
  {
-  "latijn": "lavare ",
-  "nederlands": "wassen"
+  "code": "lavare ",
+  "name": "wassen"
  },
  {
-  "latijn": "perficere ",
-  "nederlands": " perficio "
+  "code": "perficere ",
+  "name": " perficio "
  },
  {
-  "latijn": "addidi ",
-  "nederlands": "pf van addere"
+  "code": "addidi ",
+  "name": "pf van addere"
  },
  {
-  "latijn": "intellexi ",
-  "nederlands": "pf van intellegere"
+  "code": "intellexi ",
+  "name": "pf van intellegere"
  },
  {
-  "latijn": "laesi ",
-  "nederlands": "pf van laedere"
+  "code": "laesi ",
+  "name": "pf van laedere"
  },
  {
-  "latijn": "scii\/scivi ",
-  "nederlands": "pf van scire"
+  "code": "scii\/scivi ",
+  "name": "pf van scire"
  },
  {
-  "latijn": "vendidi ",
-  "nederlands": "pf van vendere"
+  "code": "vendidi ",
+  "name": "pf van vendere"
  },
  {
-  "latijn": "carmen ",
-  "nederlands": " carmina "
+  "code": "carmen ",
+  "name": " carmina "
  },
  {
-  "latijn": "labor ",
-  "nederlands": " labores "
+  "code": "labor ",
+  "name": " labores "
  },
  {
-  "latijn": "certus ",
-  "nederlands": " -a "
+  "code": "certus ",
+  "name": " -a "
  },
  {
-  "latijn": "perpetuus ",
-  "nederlands": " -a "
+  "code": "perpetuus ",
+  "name": " -a "
  },
  {
-  "latijn": "primus ",
-  "nederlands": " -a "
+  "code": "primus ",
+  "name": " -a "
  },
  {
-  "latijn": "neque ... neque ",
-  "nederlands": "niet ... en ook niet"
+  "code": "neque ... neque ",
+  "name": "niet ... en ook niet"
  },
  {
-  "latijn": "olim ",
-  "nederlands": "vroeger "
+  "code": "olim ",
+  "name": "vroeger "
  },
  {
-  "latijn": "plenus (+ gen) ",
-  "nederlands": "vol (met)"
+  "code": "plenus (+ gen) ",
+  "name": "vol (met)"
  },
  {
-  "latijn": "alius ... alius ",
-  "nederlands": "de een ... de ander"
+  "code": "alius ... alius ",
+  "name": "de een ... de ander"
  },
  {
-  "latijn": "se ",
-  "nederlands": "1 zich 2 aci dat hij "
+  "code": "se ",
+  "name": "1 zich 2 aci dat hij "
  },
  {
-  "latijn": "censēre ",
-  "nederlands": "van mening zijn"
+  "code": "censēre ",
+  "name": "van mening zijn"
  },
  {
-  "latijn": "committere ",
-  "nederlands": "toevertrouwen"
+  "code": "committere ",
+  "name": "toevertrouwen"
  },
  {
-  "latijn": "egēre + abl ",
-  "nederlands": "nodig hebben"
+  "code": "egēre + abl ",
+  "name": "nodig hebben"
  },
  {
-  "latijn": "meminisse pf ",
-  "nederlands": "1 + aci zich herinneren dat 2 + gen zich (iets) herinneren"
+  "code": "meminisse pf ",
+  "name": "1 + aci zich herinneren dat 2 + gen zich (iets) herinneren"
  },
  {
-  "latijn": "pervenire ",
-  "nederlands": "aankomen"
+  "code": "pervenire ",
+  "name": "aankomen"
  },
  {
-  "latijn": "praeterire ",
-  "nederlands": "voorbijgaan"
+  "code": "praeterire ",
+  "name": "voorbijgaan"
  },
  {
-  "latijn": "premere ",
-  "nederlands": "drukken (op)"
+  "code": "premere ",
+  "name": "drukken (op)"
  },
  {
-  "latijn": "commisi ",
-  "nederlands": "pf van committere"
+  "code": "commisi ",
+  "name": "pf van committere"
  },
  {
-  "latijn": "egi ",
-  "nederlands": "pf van agere"
+  "code": "egi ",
+  "name": "pf van agere"
  },
  {
-  "latijn": "perveni ",
-  "nederlands": "pf van pervenire"
+  "code": "perveni ",
+  "name": "pf van pervenire"
  },
  {
-  "latijn": "praeterii ",
-  "nederlands": "pf van praeterire"
+  "code": "praeterii ",
+  "name": "pf van praeterire"
  },
  {
-  "latijn": "finis ",
-  "nederlands": " fines "
+  "code": "finis ",
+  "name": " fines "
  },
  {
-  "latijn": "frumentum ",
-  "nederlands": "graan"
+  "code": "frumentum ",
+  "name": "graan"
  },
  {
-  "latijn": "iuventus ",
-  "nederlands": " gen -tutis "
+  "code": "iuventus ",
+  "name": " gen -tutis "
  },
  {
-  "latijn": "officium ",
-  "nederlands": "plicht "
+  "code": "officium ",
+  "name": "plicht "
  },
  {
-  "latijn": "orbis ",
-  "nederlands": " orbes "
+  "code": "orbis ",
+  "name": " orbes "
  },
  {
-  "latijn": "villa ",
-  "nederlands": "landgoed"
+  "code": "villa ",
+  "name": "landgoed"
  },
  {
-  "latijn": "ignotus ",
-  "nederlands": " -a "
+  "code": "ignotus ",
+  "name": " -a "
  },
  {
-  "latijn": "amplus ",
-  "nederlands": " -a "
+  "code": "amplus ",
+  "name": " -a "
  },
  {
-  "latijn": "procul ",
-  "nederlands": "ver "
+  "code": "procul ",
+  "name": "ver "
  },
  {
-  "latijn": "cogere ",
-  "nederlands": "1 bijeenbrengen 2 dwingen"
+  "code": "cogere ",
+  "name": "1 bijeenbrengen 2 dwingen"
  },
  {
-  "latijn": "delēre ",
-  "nederlands": "vernielen"
+  "code": "delēre ",
+  "name": "vernielen"
  },
  {
-  "latijn": "necesse est ",
-  "nederlands": "het is nodig"
+  "code": "necesse est ",
+  "name": "het is nodig"
  },
  {
-  "latijn": "nescire ",
-  "nederlands": "niet weten"
+  "code": "nescire ",
+  "name": "niet weten"
  },
  {
-  "latijn": "rapere ",
-  "nederlands": " rapio "
+  "code": "rapere ",
+  "name": " rapio "
  },
  {
-  "latijn": "ruere ",
-  "nederlands": "1 zich haasten 2 neerstorten "
+  "code": "ruere ",
+  "name": "1 zich haasten 2 neerstorten "
  },
  {
-  "latijn": "tremere ",
-  "nederlands": "trillen "
+  "code": "tremere ",
+  "name": "trillen "
  },
  {
-  "latijn": "accidi ",
-  "nederlands": "pf van accidere"
+  "code": "accidi ",
+  "name": "pf van accidere"
  },
  {
-  "latijn": "coegi ",
-  "nederlands": "pf van cogere"
+  "code": "coegi ",
+  "name": "pf van cogere"
  },
  {
-  "latijn": "perfeci ",
-  "nederlands": "pf van perficere"
+  "code": "perfeci ",
+  "name": "pf van perficere"
  },
  {
-  "latijn": "rapui ",
-  "nederlands": "pf van rapere"
+  "code": "rapui ",
+  "name": "pf van rapere"
  },
  {
-  "latijn": "rui ",
-  "nederlands": "pf van ruere"
+  "code": "rui ",
+  "name": "pf van ruere"
  },
  {
-  "latijn": "Iovis ",
-  "nederlands": "gen van Iupiter"
+  "code": "Iovis ",
+  "name": "gen van Iupiter"
  },
  {
-  "latijn": "regio ",
-  "nederlands": " regiones "
+  "code": "regio ",
+  "name": " regiones "
  },
  {
-  "latijn": "anxius ",
-  "nederlands": " -a "
+  "code": "anxius ",
+  "name": " -a "
  },
  {
-  "latijn": "frequens ",
-  "nederlands": " frequent- "
+  "code": "frequens ",
+  "name": " frequent- "
  },
  {
-  "latijn": "nonnulli ",
-  "nederlands": " -ae "
+  "code": "nonnulli ",
+  "name": " -ae "
  },
  {
-  "latijn": "vehemens ",
-  "nederlands": " vehement- "
+  "code": "vehemens ",
+  "name": " vehement- "
  },
  {
-  "latijn": "vetus ",
-  "nederlands": " veter- "
+  "code": "vetus ",
+  "name": " veter- "
  },
  {
-  "latijn": "post ",
-  "nederlands": "1 + acc achter "
+  "code": "post ",
+  "name": "1 + acc achter "
  },
  {
-  "latijn": "unde ",
-  "nederlands": "waarvandaan"
+  "code": "unde ",
+  "name": "waarvandaan"
  },
  {
-  "latijn": "quisque ",
-  "nederlands": "iedereen"
+  "code": "quisque ",
+  "name": "iedereen"
  },
  {
-  "latijn": "abire ",
-  "nederlands": "weggaan"
+  "code": "abire ",
+  "name": "weggaan"
  },
  {
-  "latijn": "colere ",
-  "nederlands": "1 verzorgen 2 bebouwen 3 vereren"
+  "code": "colere ",
+  "name": "1 verzorgen 2 bebouwen 3 vereren"
  },
  {
-  "latijn": "discere (a\/ab +abl) ",
-  "nederlands": "leren (van)"
+  "code": "discere (a\/ab +abl) ",
+  "name": "leren (van)"
  },
  {
-  "latijn": "expugnare ",
-  "nederlands": "veroveren"
+  "code": "expugnare ",
+  "name": "veroveren"
  },
  {
-  "latijn": "frangere ",
-  "nederlands": "breken"
+  "code": "frangere ",
+  "name": "breken"
  },
  {
-  "latijn": "odisse pf ",
-  "nederlands": "haten"
+  "code": "odisse pf ",
+  "name": "haten"
  },
  {
-  "latijn": "perdere ",
-  "nederlands": "vernietigen"
+  "code": "perdere ",
+  "name": "vernietigen"
  },
  {
-  "latijn": "permittere ",
-  "nederlands": "toelaten "
+  "code": "permittere ",
+  "name": "toelaten "
  },
  {
-  "latijn": "iurare (per + acc) ",
-  "nederlands": "zweren (bij)"
+  "code": "iurare (per + acc) ",
+  "name": "zweren (bij)"
  },
  {
-  "latijn": "abii ",
-  "nederlands": "pf van abire"
+  "code": "abii ",
+  "name": "pf van abire"
  },
  {
-  "latijn": "collegi ",
-  "nederlands": "pf van colligere"
+  "code": "collegi ",
+  "name": "pf van colligere"
  },
  {
-  "latijn": "didici ",
-  "nederlands": "pf van discere"
+  "code": "didici ",
+  "name": "pf van discere"
  },
  {
-  "latijn": "fregi ",
-  "nederlands": "pf van frangere"
+  "code": "fregi ",
+  "name": "pf van frangere"
  },
  {
-  "latijn": "animus ",
-  "nederlands": "geest "
+  "code": "animus ",
+  "name": "geest "
  },
  {
-  "latijn": "ara ",
-  "nederlands": "altaar"
+  "code": "ara ",
+  "name": "altaar"
  },
  {
-  "latijn": "ars ",
-  "nederlands": " artes "
+  "code": "ars ",
+  "name": " artes "
  },
  {
-  "latijn": "copiae mv ",
-  "nederlands": "troepen"
+  "code": "copiae mv ",
+  "name": "troepen"
  },
  {
-  "latijn": "divitiae mv ",
-  "nederlands": "rijkdom"
+  "code": "divitiae mv ",
+  "name": "rijkdom"
  },
  {
-  "latijn": "mare ",
-  "nederlands": " maria "
+  "code": "mare ",
+  "name": " maria "
  },
  {
-  "latijn": "mari ",
-  "nederlands": "abl van mare"
+  "code": "mari ",
+  "name": "abl van mare"
  },
  {
-  "latijn": "patria ",
-  "nederlands": "vaderland"
+  "code": "patria ",
+  "name": "vaderland"
  },
  {
-  "latijn": "senator ",
-  "nederlands": " senatores "
+  "code": "senator ",
+  "name": " senatores "
  },
  {
-  "latijn": "militaris ",
-  "nederlands": " -e "
+  "code": "militaris ",
+  "name": " -e "
  },
  {
-  "latijn": "umquam ",
-  "nederlands": "ooit"
+  "code": "umquam ",
+  "name": "ooit"
  },
  {
-  "latijn": "accipere ",
-  "nederlands": " accipio "
+  "code": "accipere ",
+  "name": " accipio "
  },
  {
-  "latijn": "aperire ",
-  "nederlands": "openen"
+  "code": "aperire ",
+  "name": "openen"
  },
  {
-  "latijn": "convenire ",
-  "nederlands": "bijeenkomen"
+  "code": "convenire ",
+  "name": "bijeenkomen"
  },
  {
-  "latijn": "defendere ",
-  "nederlands": "verdedigen"
+  "code": "defendere ",
+  "name": "verdedigen"
  },
  {
-  "latijn": "dolēre ",
-  "nederlands": "treuren "
+  "code": "dolēre ",
+  "name": "treuren "
  },
  {
-  "latijn": "habēre ",
-  "nederlands": "1 hebben 2 houden"
+  "code": "habēre ",
+  "name": "1 hebben 2 houden"
  },
  {
-  "latijn": "intendere ",
-  "nederlands": "richten"
+  "code": "intendere ",
+  "name": "richten"
  },
  {
-  "latijn": "accepi ",
-  "nederlands": "pf van accipere"
+  "code": "accepi ",
+  "name": "pf van accipere"
  },
  {
-  "latijn": "conveni ",
-  "nederlands": "pf van convenire"
+  "code": "conveni ",
+  "name": "pf van convenire"
  },
  {
-  "latijn": "castra mv ",
-  "nederlands": "legerkamp"
+  "code": "castra mv ",
+  "name": "legerkamp"
  },
  {
-  "latijn": "clades ",
-  "nederlands": " clades "
+  "code": "clades ",
+  "name": " clades "
  },
  {
-  "latijn": "curia ",
-  "nederlands": "senaatsgebouw"
+  "code": "curia ",
+  "name": "senaatsgebouw"
  },
  {
-  "latijn": "moenia mv ",
-  "nederlands": "(stads)muren"
+  "code": "moenia mv ",
+  "name": "(stads)muren"
  },
  {
-  "latijn": "multitudo ",
-  "nederlands": " -tudines "
+  "code": "multitudo ",
+  "name": " -tudines "
  },
  {
-  "latijn": "nuntius ",
-  "nederlands": "1 bode2 bericht"
+  "code": "nuntius ",
+  "name": "1 bode2 bericht"
  },
  {
-  "latijn": "porta ",
-  "nederlands": "poort"
+  "code": "porta ",
+  "name": "poort"
  },
  {
-  "latijn": "mortuus (-a ",
-  "nederlands": " -um) "
+  "code": "mortuus (-a ",
+  "name": " -um) "
  },
  {
-  "latijn": "privatus ",
-  "nederlands": " -a "
+  "code": "privatus ",
+  "name": " -a "
  },
  {
-  "latijn": "publicus ",
-  "nederlands": " -a "
+  "code": "publicus ",
+  "name": " -a "
  },
  {
-  "latijn": "tutus ",
-  "nederlands": "veilig"
+  "code": "tutus ",
+  "name": "veilig"
  },
  {
-  "latijn": "cras ",
-  "nederlands": "morgen"
+  "code": "cras ",
+  "name": "morgen"
  },
  {
-  "latijn": "paulatim ",
-  "nederlands": "langzamerhand"
+  "code": "paulatim ",
+  "name": "langzamerhand"
  },
  {
-  "latijn": "postremo ",
-  "nederlands": "tenslotte"
+  "code": "postremo ",
+  "name": "tenslotte"
  },
  {
-  "latijn": "quantus ",
-  "nederlands": " -a "
+  "code": "quantus ",
+  "name": " -a "
  },
  {
-  "latijn": "instruere ",
-  "nederlands": "opstellen"
+  "code": "instruere ",
+  "name": "opstellen"
  },
  {
-  "latijn": "interficere ",
-  "nederlands": " -ficio "
+  "code": "interficere ",
+  "name": " -ficio "
  },
  {
-  "latijn": "malle inf.prs ",
-  "nederlands": "liever willen"
+  "code": "malle inf.prs ",
+  "name": "liever willen"
  },
  {
-  "latijn": "merēre ",
-  "nederlands": "verdienen"
+  "code": "merēre ",
+  "name": "verdienen"
  },
  {
-  "latijn": "obsidēre ",
-  "nederlands": "belegeren"
+  "code": "obsidēre ",
+  "name": "belegeren"
  },
  {
-  "latijn": "offerre ",
-  "nederlands": "aanbieden"
+  "code": "offerre ",
+  "name": "aanbieden"
  },
  {
-  "latijn": "parēre ",
-  "nederlands": "gehoorzamen"
+  "code": "parēre ",
+  "name": "gehoorzamen"
  },
  {
-  "latijn": "referre ",
-  "nederlands": "1 terugbrengen 2 (be)halen 3 rapporteren"
+  "code": "referre ",
+  "name": "1 terugbrengen 2 (be)halen 3 rapporteren"
  },
  {
-  "latijn": "revocare ",
-  "nederlands": "terugroepen"
+  "code": "revocare ",
+  "name": "terugroepen"
  },
  {
-  "latijn": "velle inf.prs ",
-  "nederlands": "willen"
+  "code": "velle inf.prs ",
+  "name": "willen"
  },
  {
-  "latijn": "vis van velle ",
-  "nederlands": "jij wilt"
+  "code": "vis van velle ",
+  "name": "jij wilt"
  },
  {
-  "latijn": "instructus ",
-  "nederlands": "ppp van instruere"
+  "code": "instructus ",
+  "name": "ppp van instruere"
  },
  {
-  "latijn": "interfectus ",
-  "nederlands": "ppp van interficere"
+  "code": "interfectus ",
+  "name": "ppp van interficere"
  },
  {
-  "latijn": "relatus ",
-  "nederlands": "ppp van referre"
+  "code": "relatus ",
+  "name": "ppp van referre"
  },
  {
-  "latijn": "relictus ",
-  "nederlands": "ppp van relinquere"
+  "code": "relictus ",
+  "name": "ppp van relinquere"
  },
  {
-  "latijn": "victus ",
-  "nederlands": "ppp van vincere"
+  "code": "victus ",
+  "name": "ppp van vincere"
  },
  {
-  "latijn": "campus ",
-  "nederlands": "veld"
+  "code": "campus ",
+  "name": "veld"
  },
  {
-  "latijn": "laus ",
-  "nederlands": " laudes "
+  "code": "laus ",
+  "name": " laudes "
  },
  {
-  "latijn": "pax ",
-  "nederlands": " gen pacis "
+  "code": "pax ",
+  "name": " gen pacis "
  },
  {
-  "latijn": "proelium ",
-  "nederlands": "gevecht "
+  "code": "proelium ",
+  "name": "gevecht "
  },
  {
-  "latijn": "spatium ",
-  "nederlands": "1 afstand 2 ruimte"
+  "code": "spatium ",
+  "name": "1 afstand 2 ruimte"
  },
  {
-  "latijn": "latus ",
-  "nederlands": " -a "
+  "code": "latus ",
+  "name": " -a "
  },
  {
-  "latijn": "totus ",
-  "nederlands": " -a "
+  "code": "totus ",
+  "name": " -a "
  },
  {
-  "latijn": "propter + acc ",
-  "nederlands": "wegens"
+  "code": "propter + acc ",
+  "name": "wegens"
  },
  {
-  "latijn": "paene ",
-  "nederlands": "bijna"
+  "code": "paene ",
+  "name": "bijna"
  },
  {
-  "latijn": "afferre ",
-  "nederlands": "(mee)brengen"
+  "code": "afferre ",
+  "name": "(mee)brengen"
  },
  {
-  "latijn": "ascendere ",
-  "nederlands": "bestijgen "
+  "code": "ascendere ",
+  "name": "bestijgen "
  },
  {
-  "latijn": "deicere ",
-  "nederlands": " deicio "
+  "code": "deicere ",
+  "name": " deicio "
  },
  {
-  "latijn": "ferre ",
-  "nederlands": "1 dragen "
+  "code": "ferre ",
+  "name": "1 dragen "
  },
  {
-  "latijn": "petere ",
-  "nederlands": "1 zoeken "
+  "code": "petere ",
+  "name": "1 zoeken "
  },
  {
-  "latijn": "promittere ",
-  "nederlands": "beloven"
+  "code": "promittere ",
+  "name": "beloven"
  },
  {
-  "latijn": "ascendi ",
-  "nederlands": "pf van ascendere"
+  "code": "ascendi ",
+  "name": "pf van ascendere"
  },
  {
-  "latijn": "attuli ",
-  "nederlands": "pf van afferre"
+  "code": "attuli ",
+  "name": "pf van afferre"
  },
  {
-  "latijn": "deieci ",
-  "nederlands": "pf van deicere"
+  "code": "deieci ",
+  "name": "pf van deicere"
  },
  {
-  "latijn": "obtuli ",
-  "nederlands": "pf van offerre"
+  "code": "obtuli ",
+  "name": "pf van offerre"
  },
  {
-  "latijn": "pressi ",
-  "nederlands": "pf van premere"
+  "code": "pressi ",
+  "name": "pf van premere"
  },
  {
-  "latijn": "promisi ",
-  "nederlands": "pf van promittere"
+  "code": "promisi ",
+  "name": "pf van promittere"
  },
  {
-  "latijn": "tuli ",
-  "nederlands": "pf van ferre"
+  "code": "tuli ",
+  "name": "pf van ferre"
  },
  {
-  "latijn": "deiectus ",
-  "nederlands": "ppp van deicere"
+  "code": "deiectus ",
+  "name": "ppp van deicere"
  },
  {
-  "latijn": "mercator ",
-  "nederlands": " mercatores "
+  "code": "mercator ",
+  "name": " mercatores "
  },
  {
-  "latijn": "magnitudo ",
-  "nederlands": " -dinis "
+  "code": "magnitudo ",
+  "name": " -dinis "
  },
  {
-  "latijn": "regnum ",
-  "nederlands": "1 koningschap 2 koninkrijk"
+  "code": "regnum ",
+  "name": "1 koningschap 2 koninkrijk"
  },
  {
-  "latijn": "mirus ",
-  "nederlands": " -a "
+  "code": "mirus ",
+  "name": " -a "
  },
  {
-  "latijn": "nisi ",
-  "nederlands": "1 als niet 2 behalve"
+  "code": "nisi ",
+  "name": "1 als niet 2 behalve"
  },
  {
-  "latijn": "par ",
-  "nederlands": " par- "
+  "code": "par ",
+  "name": " par- "
  },
  {
-  "latijn": "atque ",
-  "nederlands": "en"
+  "code": "atque ",
+  "name": "en"
  },
  {
-  "latijn": "afficere ",
-  "nederlands": " afficio "
+  "code": "afficere ",
+  "name": " afficio "
  },
  {
-  "latijn": "constat ",
-  "nederlands": "het staat vast"
+  "code": "constat ",
+  "name": "het staat vast"
  },
  {
-  "latijn": "invenire ",
-  "nederlands": "1 vinden 2 uitvinden"
+  "code": "invenire ",
+  "name": "1 vinden 2 uitvinden"
  },
  {
-  "latijn": "nocēre + dat ",
-  "nederlands": "schaden "
+  "code": "nocēre + dat ",
+  "name": "schaden "
  },
  {
-  "latijn": "nolle inf.prs ",
-  "nederlands": "niet willen"
+  "code": "nolle inf.prs ",
+  "name": "niet willen"
  },
  {
-  "latijn": "sperare ",
-  "nederlands": "hopen"
+  "code": "sperare ",
+  "name": "hopen"
  },
  {
-  "latijn": "interfeci ",
-  "nederlands": "pf van interficere"
+  "code": "interfeci ",
+  "name": "pf van interficere"
  },
  {
-  "latijn": "affectus ",
-  "nederlands": "ppp van afficere"
+  "code": "affectus ",
+  "name": "ppp van afficere"
  },
  {
-  "latijn": "collectus ",
-  "nederlands": "ppp van colligere"
+  "code": "collectus ",
+  "name": "ppp van colligere"
  },
  {
-  "latijn": "doctus ",
-  "nederlands": "ppp van docēre"
+  "code": "doctus ",
+  "name": "ppp van docēre"
  },
  {
-  "latijn": "ductus ",
-  "nederlands": "ppp van ducere"
+  "code": "ductus ",
+  "name": "ppp van ducere"
  },
  {
-  "latijn": "factus ",
-  "nederlands": "ppp van facere"
+  "code": "factus ",
+  "name": "ppp van facere"
  },
  {
-  "latijn": "inventus ",
-  "nederlands": "ppp van invenire"
+  "code": "inventus ",
+  "name": "ppp van invenire"
  },
  {
-  "latijn": "futurum ",
-  "nederlands": "pfa van esse"
+  "code": "futurum ",
+  "name": "pfa van esse"
  },
  {
-  "latijn": "aetas ",
-  "nederlands": " aetates "
+  "code": "aetas ",
+  "name": " aetates "
  },
  {
-  "latijn": "ira ",
-  "nederlands": "woede"
+  "code": "ira ",
+  "name": "woede"
  },
  {
-  "latijn": "lumen ",
-  "nederlands": " lumina "
+  "code": "lumen ",
+  "name": " lumina "
  },
  {
-  "latijn": "mens ",
-  "nederlands": " mentes "
+  "code": "mens ",
+  "name": " mentes "
  },
  {
-  "latijn": "mundus ",
-  "nederlands": "wereld"
+  "code": "mundus ",
+  "name": "wereld"
  },
  {
-  "latijn": "pondus ",
-  "nederlands": " pondera "
+  "code": "pondus ",
+  "name": " pondera "
  },
  {
-  "latijn": "scientia ",
-  "nederlands": "kennis "
+  "code": "scientia ",
+  "name": "kennis "
  },
  {
-  "latijn": "summus ",
-  "nederlands": " -a "
+  "code": "summus ",
+  "name": " -a "
  },
  {
-  "latijn": "tener ",
-  "nederlands": " -era "
+  "code": "tener ",
+  "name": " -era "
  },
  {
-  "latijn": "utilis ",
-  "nederlands": " -e "
+  "code": "utilis ",
+  "name": " -e "
  },
  {
-  "latijn": "nimium + gen ",
-  "nederlands": "teveel"
+  "code": "nimium + gen ",
+  "name": "teveel"
  },
  {
-  "latijn": "confirmare ",
-  "nederlands": "bevestigen"
+  "code": "confirmare ",
+  "name": "bevestigen"
  },
  {
-  "latijn": "contemnere ",
-  "nederlands": "minachten"
+  "code": "contemnere ",
+  "name": "minachten"
  },
  {
-  "latijn": "desiderare ",
-  "nederlands": "verlangen (naar)"
+  "code": "desiderare ",
+  "name": "verlangen (naar)"
  },
  {
-  "latijn": "praeferre ",
-  "nederlands": "liever hebben "
+  "code": "praeferre ",
+  "name": "liever hebben "
  },
  {
-  "latijn": "bibi ",
-  "nederlands": "pf van bibere"
+  "code": "bibi ",
+  "name": "pf van bibere"
  },
  {
-  "latijn": "contempsi ",
-  "nederlands": "pf van contemnere"
+  "code": "contempsi ",
+  "name": "pf van contemnere"
  },
  {
-  "latijn": "possedi ",
-  "nederlands": "pf van possidēre"
+  "code": "possedi ",
+  "name": "pf van possidēre"
  },
  {
-  "latijn": "quaesivi ",
-  "nederlands": "pf van quaerere"
+  "code": "quaesivi ",
+  "name": "pf van quaerere"
  },
  {
-  "latijn": "accensus ",
-  "nederlands": "ppp van accendere"
+  "code": "accensus ",
+  "name": "ppp van accendere"
  },
  {
-  "latijn": "dictum ",
-  "nederlands": "ppp van dicere"
+  "code": "dictum ",
+  "name": "ppp van dicere"
  },
  {
-  "latijn": "canis ",
-  "nederlands": " canes "
+  "code": "canis ",
+  "name": " canes "
  },
  {
-  "latijn": "gloria ",
-  "nederlands": "roem"
+  "code": "gloria ",
+  "name": "roem"
  },
  {
-  "latijn": "honor ",
-  "nederlands": " honores "
+  "code": "honor ",
+  "name": " honores "
  },
  {
-  "latijn": "lux ",
-  "nederlands": " luces "
+  "code": "lux ",
+  "name": " luces "
  },
  {
-  "latijn": "potestas ",
-  "nederlands": " -ates "
+  "code": "potestas ",
+  "name": " -ates "
  },
  {
-  "latijn": "studium ",
-  "nederlands": "1 ijver "
+  "code": "studium ",
+  "name": "1 ijver "
  },
  {
-  "latijn": "falsus ",
-  "nederlands": " -a "
+  "code": "falsus ",
+  "name": " -a "
  },
  {
-  "latijn": "pauper ",
-  "nederlands": " pauper- "
+  "code": "pauper ",
+  "name": " pauper- "
  },
  {
-  "latijn": "verus ",
-  "nederlands": " -a "
+  "code": "verus ",
+  "name": " -a "
  },
  {
-  "latijn": "ne ... quidem ",
-  "nederlands": "zelfs niet"
+  "code": "ne ... quidem ",
+  "name": "zelfs niet"
  },
  {
-  "latijn": "quare ",
-  "nederlands": "waarom"
+  "code": "quare ",
+  "name": "waarom"
  },
  {
-  "latijn": "quasi ",
-  "nederlands": "1 als(of) 2 als het ware"
+  "code": "quasi ",
+  "name": "1 als(of) 2 als het ware"
  },
  {
-  "latijn": "certare ",
-  "nederlands": "strijden"
+  "code": "certare ",
+  "name": "strijden"
  },
  {
-  "latijn": "decernere ",
-  "nederlands": "beslissen"
+  "code": "decernere ",
+  "name": "beslissen"
  },
  {
-  "latijn": "haerēre ",
-  "nederlands": "blijven steken"
+  "code": "haerēre ",
+  "name": "blijven steken"
  },
  {
-  "latijn": "iacere ",
-  "nederlands": " iacio "
+  "code": "iacere ",
+  "name": " iacio "
  },
  {
-  "latijn": "impedire ",
-  "nederlands": "belemmeren "
+  "code": "impedire ",
+  "name": "belemmeren "
  },
  {
-  "latijn": "instare + dat ",
-  "nederlands": "achterna zitten"
+  "code": "instare + dat ",
+  "name": "achterna zitten"
  },
  {
-  "latijn": "invadere ",
-  "nederlands": "binnendringen "
+  "code": "invadere ",
+  "name": "binnendringen "
  },
  {
-  "latijn": "recipere ",
-  "nederlands": " recipio "
+  "code": "recipere ",
+  "name": " recipio "
  },
  {
-  "latijn": "trahere ",
-  "nederlands": "trekken"
+  "code": "trahere ",
+  "name": "trekken"
  },
  {
-  "latijn": "urgēre ",
-  "nederlands": "in het nauw brengen"
+  "code": "urgēre ",
+  "name": "in het nauw brengen"
  },
  {
-  "latijn": "acies 5 ",
-  "nederlands": "slaglinie"
+  "code": "acies 5 ",
+  "name": "slaglinie"
  },
  {
-  "latijn": "cornu 4 ",
-  "nederlands": "hoorn"
+  "code": "cornu 4 ",
+  "name": "hoorn"
  },
  {
-  "latijn": "dies 5 m ",
-  "nederlands": "dag"
+  "code": "dies 5 m ",
+  "name": "dag"
  },
  {
-  "latijn": "exercitus 4 ",
-  "nederlands": "leger"
+  "code": "exercitus 4 ",
+  "name": "leger"
  },
  {
-  "latijn": "gradus 4 ",
-  "nederlands": "stap "
+  "code": "gradus 4 ",
+  "name": "stap "
  },
  {
-  "latijn": "impetus 4 ",
-  "nederlands": "1 het aanstormen 2 aanval"
+  "code": "impetus 4 ",
+  "name": "1 het aanstormen 2 aanval"
  },
  {
-  "latijn": "manus 4 v ",
-  "nederlands": "hand"
+  "code": "manus 4 v ",
+  "name": "hand"
  },
  {
-  "latijn": "metus 4 ",
-  "nederlands": "vrees "
+  "code": "metus 4 ",
+  "name": "vrees "
  },
  {
-  "latijn": "res 5 ",
-  "nederlands": "zaak "
+  "code": "res 5 ",
+  "name": "zaak "
  },
  {
-  "latijn": "strepitus 4 ",
-  "nederlands": "lawaai"
+  "code": "strepitus 4 ",
+  "name": "lawaai"
  },
  {
-  "latijn": "tumultus 4 ",
-  "nederlands": "opschudding "
+  "code": "tumultus 4 ",
+  "name": "opschudding "
  },
  {
-  "latijn": "dexter ",
-  "nederlands": " -tra "
+  "code": "dexter ",
+  "name": " -tra "
  },
  {
-  "latijn": "incolumis ",
-  "nederlands": " -e "
+  "code": "incolumis ",
+  "name": " -e "
  },
  {
-  "latijn": "universus ",
-  "nederlands": " -a "
+  "code": "universus ",
+  "name": " -a "
  },
  {
-  "latijn": "uterque ",
-  "nederlands": "elk van beiden"
+  "code": "uterque ",
+  "name": "elk van beiden"
  },
  {
-  "latijn": "uter ",
-  "nederlands": " utra "
+  "code": "uter ",
+  "name": " utra "
  },
  {
-  "latijn": "corrumpere ",
-  "nederlands": "1 bederven 2 omkopen"
+  "code": "corrumpere ",
+  "name": "1 bederven 2 omkopen"
  },
  {
-  "latijn": "obtinēre ",
-  "nederlands": "1 in bezit krijgen 2 in bezit hebben"
+  "code": "obtinēre ",
+  "name": "1 in bezit krijgen 2 in bezit hebben"
  },
  {
-  "latijn": "captus ",
-  "nederlands": "ppp van capere"
+  "code": "captus ",
+  "name": "ppp van capere"
  },
  {
-  "latijn": "datum ",
-  "nederlands": "ppp van dare"
+  "code": "datum ",
+  "name": "ppp van dare"
  },
  {
-  "latijn": "adventus 4 ",
-  "nederlands": "aankomst"
+  "code": "adventus 4 ",
+  "name": "aankomst"
  },
  {
-  "latijn": "auxilium ",
-  "nederlands": "1 hulp 2 mv hulptroepen"
+  "code": "auxilium ",
+  "name": "1 hulp 2 mv hulptroepen"
  },
  {
-  "latijn": "centurio ",
-  "nederlands": " -ones "
+  "code": "centurio ",
+  "name": " -ones "
  },
  {
-  "latijn": "color ",
-  "nederlands": " colores "
+  "code": "color ",
+  "name": " colores "
  },
  {
-  "latijn": "gens ",
-  "nederlands": " gentes "
+  "code": "gens ",
+  "name": " gentes "
  },
  {
-  "latijn": "munus ",
-  "nederlands": " munera "
+  "code": "munus ",
+  "name": " munera "
  },
  {
-  "latijn": "oppidum ",
-  "nederlands": "(vesting)stad"
+  "code": "oppidum ",
+  "name": "(vesting)stad"
  },
  {
-  "latijn": "praemium ",
-  "nederlands": "beloning"
+  "code": "praemium ",
+  "name": "beloning"
  },
  {
-  "latijn": "socius ",
-  "nederlands": "bondgenoot"
+  "code": "socius ",
+  "name": "bondgenoot"
  },
  {
-  "latijn": "species 5 ",
-  "nederlands": "uiterlijk"
+  "code": "species 5 ",
+  "name": "uiterlijk"
  },
  {
-  "latijn": "vis ",
-  "nederlands": " vires "
+  "code": "vis ",
+  "name": " vires "
  },
  {
-  "latijn": "barbarus ",
-  "nederlands": " -a "
+  "code": "barbarus ",
+  "name": " -a "
  },
  {
-  "latijn": "saevus ",
-  "nederlands": " -a "
+  "code": "saevus ",
+  "name": " -a "
  },
  {
-  "latijn": "solus ",
-  "nederlands": " -a "
+  "code": "solus ",
+  "name": " -a "
  },
  {
-  "latijn": "usque ad + acc ",
-  "nederlands": "tot aan"
+  "code": "usque ad + acc ",
+  "name": "tot aan"
  },
  {
-  "latijn": "bis ",
-  "nederlands": "tweemaal"
+  "code": "bis ",
+  "name": "tweemaal"
  },
  {
-  "latijn": "paulo ",
-  "nederlands": "een beetje"
+  "code": "paulo ",
+  "name": "een beetje"
  },
  {
-  "latijn": "quoniam ",
-  "nederlands": "aangezien"
+  "code": "quoniam ",
+  "name": "aangezien"
  },
  {
-  "latijn": "tam ",
-  "nederlands": "zo"
+  "code": "tam ",
+  "name": "zo"
  },
  {
-  "latijn": "convocare ",
-  "nederlands": "bijeenroepen"
+  "code": "convocare ",
+  "name": "bijeenroepen"
  },
  {
-  "latijn": "dedere (se) ",
-  "nederlands": "(zich) overgeven"
+  "code": "dedere (se) ",
+  "name": "(zich) overgeven"
  },
  {
-  "latijn": "descendere ",
-  "nederlands": "afdalen"
+  "code": "descendere ",
+  "name": "afdalen"
  },
  {
-  "latijn": "inire ",
-  "nederlands": "1 ingaan 2 beginnen"
+  "code": "inire ",
+  "name": "1 ingaan 2 beginnen"
  },
  {
-  "latijn": "patēre ",
-  "nederlands": "openstaan"
+  "code": "patēre ",
+  "name": "openstaan"
  },
  {
-  "latijn": "properare ",
-  "nederlands": "zich haasten"
+  "code": "properare ",
+  "name": "zich haasten"
  },
  {
-  "latijn": "proponere ",
-  "nederlands": "1 voorleggen 2 voorstellen"
+  "code": "proponere ",
+  "name": "1 voorleggen 2 voorstellen"
  },
  {
-  "latijn": "descendi ",
-  "nederlands": "pf van descendere"
+  "code": "descendi ",
+  "name": "pf van descendere"
  },
  {
-  "latijn": "inii ",
-  "nederlands": "pf van inire"
+  "code": "inii ",
+  "name": "pf van inire"
  },
  {
-  "latijn": "clausus ",
-  "nederlands": "ppp van claudere"
+  "code": "clausus ",
+  "name": "ppp van claudere"
  },
  {
-  "latijn": "missus ",
-  "nederlands": "ppp van mittere"
+  "code": "missus ",
+  "name": "ppp van mittere"
  },
  {
-  "latijn": "propositus ",
-  "nederlands": "ppp van proponere"
+  "code": "propositus ",
+  "name": "ppp van proponere"
  },
  {
-  "latijn": "exitus 4 ",
-  "nederlands": "1 uitgang 2 afloop"
+  "code": "exitus 4 ",
+  "name": "1 uitgang 2 afloop"
  },
  {
-  "latijn": "fides 5 ",
-  "nederlands": "1 (woord van) trouw 2 vertrouwen"
+  "code": "fides 5 ",
+  "name": "1 (woord van) trouw 2 vertrouwen"
  },
  {
-  "latijn": "imperator ",
-  "nederlands": " -ores "
+  "code": "imperator ",
+  "name": " -ores "
  },
  {
-  "latijn": "imperium ",
-  "nederlands": "1 bevel "
+  "code": "imperium ",
+  "name": "1 bevel "
  },
  {
-  "latijn": "legatus ",
-  "nederlands": "gezant"
+  "code": "legatus ",
+  "name": "gezant"
  },
  {
-  "latijn": "princeps ",
-  "nederlands": " principes "
+  "code": "princeps ",
+  "name": " principes "
  },
  {
-  "latijn": "spes 5 ",
-  "nederlands": "hoop "
+  "code": "spes 5 ",
+  "name": "hoop "
  },
  {
-  "latijn": "posterus ",
-  "nederlands": " -a "
+  "code": "posterus ",
+  "name": " -a "
  },
  {
-  "latijn": "singuli ",
-  "nederlands": " -ae "
+  "code": "singuli ",
+  "name": " -ae "
  },
  {
-  "latijn": "vivus ",
-  "nederlands": " -a "
+  "code": "vivus ",
+  "name": " -a "
  },
  {
-  "latijn": "intra + acc ",
-  "nederlands": "binnen"
+  "code": "intra + acc ",
+  "name": "binnen"
  },
  {
-  "latijn": "vix ",
-  "nederlands": "met moeite "
+  "code": "vix ",
+  "name": "met moeite "
  },
  {
-  "latijn": "coepi ",
-  "nederlands": "pf ik ben begonnen"
+  "code": "coepi ",
+  "name": "pf ik ben begonnen"
  },
  {
-  "latijn": "imminēre (+ dat) ",
-  "nederlands": "(be)dreigen"
+  "code": "imminēre (+ dat) ",
+  "name": "(be)dreigen"
  },
  {
-  "latijn": "metuere ",
-  "nederlands": "vrezen"
+  "code": "metuere ",
+  "name": "vrezen"
  },
  {
-  "latijn": "praestare ",
-  "nederlands": "1 verrichten 2 se zich betonen"
+  "code": "praestare ",
+  "name": "1 verrichten 2 se zich betonen"
  },
  {
-  "latijn": "prodesse ",
-  "nederlands": "voordelig zijn"
+  "code": "prodesse ",
+  "name": "voordelig zijn"
  },
  {
-  "latijn": "transire ",
-  "nederlands": "oversteken"
+  "code": "transire ",
+  "name": "oversteken"
  },
  {
-  "latijn": "transii ",
-  "nederlands": "pf van transire"
+  "code": "transii ",
+  "name": "pf van transire"
  },
  {
-  "latijn": "actus ",
-  "nederlands": "ppp van agere"
+  "code": "actus ",
+  "name": "ppp van agere"
  },
  {
-  "latijn": "iactus ",
-  "nederlands": "ppp van iacere"
+  "code": "iactus ",
+  "name": "ppp van iacere"
  },
  {
-  "latijn": "obtentus ",
-  "nederlands": "ppp van obtinēre"
+  "code": "obtentus ",
+  "name": "ppp van obtinēre"
  },
  {
-  "latijn": "civitas ",
-  "nederlands": " civitates "
+  "code": "civitas ",
+  "name": " civitates "
  },
  {
-  "latijn": "clementia ",
-  "nederlands": "genade "
+  "code": "clementia ",
+  "name": "genade "
  },
  {
-  "latijn": "luxuria ",
-  "nederlands": "(zucht naar) weelde"
+  "code": "luxuria ",
+  "name": "(zucht naar) weelde"
  },
  {
-  "latijn": "plebs ",
-  "nederlands": " gen plebis "
+  "code": "plebs ",
+  "name": " gen plebis "
  },
  {
-  "latijn": "res publica ",
-  "nederlands": "staat "
+  "code": "res publica ",
+  "name": "staat "
  },
  {
-  "latijn": "senatus 4 ",
-  "nederlands": "senaat"
+  "code": "senatus 4 ",
+  "name": "senaat"
  },
  {
-  "latijn": "virgo ",
-  "nederlands": " virgines "
+  "code": "virgo ",
+  "name": " virgines "
  },
  {
-  "latijn": "civilis ",
-  "nederlands": " -e "
+  "code": "civilis ",
+  "name": " -e "
  },
  {
-  "latijn": "inimicus ",
-  "nederlands": " (-a "
+  "code": "inimicus ",
+  "name": " (-a "
  },
  {
-  "latijn": "inanis ",
-  "nederlands": " -e "
+  "code": "inanis ",
+  "name": " -e "
  },
  {
-  "latijn": "adire (ad) + acc ",
-  "nederlands": "gaan naar"
+  "code": "adire (ad) + acc ",
+  "name": "gaan naar"
  },
  {
-  "latijn": "efferre ",
-  "nederlands": "naar buiten dragen"
+  "code": "efferre ",
+  "name": "naar buiten dragen"
  },
  {
-  "latijn": "includere ",
-  "nederlands": "insluiten"
+  "code": "includere ",
+  "name": "insluiten"
  },
  {
-  "latijn": "iuvare ",
-  "nederlands": "helpen"
+  "code": "iuvare ",
+  "name": "helpen"
  },
  {
-  "latijn": "liberare (a + abl) ",
-  "nederlands": "bevrijden (van)"
+  "code": "liberare (a + abl) ",
+  "name": "bevrijden (van)"
  },
  {
-  "latijn": "regnare ",
-  "nederlands": "koning zijn"
+  "code": "regnare ",
+  "name": "koning zijn"
  },
  {
-  "latijn": "simulare ",
-  "nederlands": "doen alsof "
+  "code": "simulare ",
+  "name": "doen alsof "
  },
  {
-  "latijn": "surgere ",
-  "nederlands": "opstaan"
+  "code": "surgere ",
+  "name": "opstaan"
  },
  {
-  "latijn": "adii ",
-  "nederlands": "pf van adire"
+  "code": "adii ",
+  "name": "pf van adire"
  },
  {
-  "latijn": "iuvi ",
-  "nederlands": "pf van iuvare"
+  "code": "iuvi ",
+  "name": "pf van iuvare"
  },
  {
-  "latijn": "surrexi ",
-  "nederlands": "pf van surgere"
+  "code": "surrexi ",
+  "name": "pf van surgere"
  },
  {
-  "latijn": "volui ",
-  "nederlands": "pf van velle"
+  "code": "volui ",
+  "name": "pf van velle"
  },
  {
-  "latijn": "conditus ",
-  "nederlands": "ppp van condere"
+  "code": "conditus ",
+  "name": "ppp van condere"
  },
  {
-  "latijn": "inclusus ",
-  "nederlands": "ppp van includere"
+  "code": "inclusus ",
+  "name": "ppp van includere"
  },
  {
-  "latijn": "facies 5 ",
-  "nederlands": "gezicht "
+  "code": "facies 5 ",
+  "name": "gezicht "
  },
  {
-  "latijn": "regina ",
-  "nederlands": "koningin"
+  "code": "regina ",
+  "name": "koningin"
  },
  {
-  "latijn": "spiritus 4 ",
-  "nederlands": "1 adem 2 geest"
+  "code": "spiritus 4 ",
+  "name": "1 adem 2 geest"
  },
  {
-  "latijn": "insignis ",
-  "nederlands": " -e "
+  "code": "insignis ",
+  "name": " -e "
  },
  {
-  "latijn": "hic ",
-  "nederlands": " haec "
+  "code": "hic ",
+  "name": " haec "
  },
  {
-  "latijn": "idem ",
-  "nederlands": " eadem "
+  "code": "idem ",
+  "name": " eadem "
  },
  {
-  "latijn": "ille ",
-  "nederlands": " illa "
+  "code": "ille ",
+  "name": " illa "
  },
  {
-  "latijn": "iste ",
-  "nederlands": " ista "
+  "code": "iste ",
+  "name": " ista "
  },
  {
-  "latijn": "sibi dat ",
-  "nederlands": "(aan\/voor) zichzelf"
+  "code": "sibi dat ",
+  "name": "(aan\/voor) zichzelf"
  },
  {
-  "latijn": "cavēre (+ acc) ",
-  "nederlands": "oppassen (voor)"
+  "code": "cavēre (+ acc) ",
+  "name": "oppassen (voor)"
  },
  {
-  "latijn": "contingere ",
-  "nederlands": "1 + acc aanraken 2 gebeuren"
+  "code": "contingere ",
+  "name": "1 + acc aanraken 2 gebeuren"
  },
  {
-  "latijn": "convenire ",
-  "nederlands": "1 bijeenkomen 2 + acc ontmoeten"
+  "code": "convenire ",
+  "name": "1 bijeenkomen 2 + acc ontmoeten"
  },
  {
-  "latijn": "excitare ",
-  "nederlands": "(op)wekken"
+  "code": "excitare ",
+  "name": "(op)wekken"
  },
  {
-  "latijn": "interest ",
-  "nederlands": "het is van belang"
+  "code": "interest ",
+  "name": "het is van belang"
  },
  {
-  "latijn": "interire ",
-  "nederlands": "omkomen "
+  "code": "interire ",
+  "name": "omkomen "
  },
  {
-  "latijn": "iungere ",
-  "nederlands": "verbinden"
+  "code": "iungere ",
+  "name": "verbinden"
  },
  {
-  "latijn": "monēre ",
-  "nederlands": "1 waarschuwen 2 aansporen"
+  "code": "monēre ",
+  "name": "1 waarschuwen 2 aansporen"
  },
  {
-  "latijn": "neglegere ",
-  "nederlands": "verwaarlozen"
+  "code": "neglegere ",
+  "name": "verwaarlozen"
  },
  {
-  "latijn": "contigi ",
-  "nederlands": "pf van contingere"
+  "code": "contigi ",
+  "name": "pf van contingere"
  },
  {
-  "latijn": "invasi ",
-  "nederlands": "pf van invadere"
+  "code": "invasi ",
+  "name": "pf van invadere"
  },
  {
-  "latijn": "coactus ",
-  "nederlands": "ppp van cogere"
+  "code": "coactus ",
+  "name": "ppp van cogere"
  },
  {
-  "latijn": "interiturus ",
-  "nederlands": "pfa van interire"
+  "code": "interiturus ",
+  "name": "pfa van interire"
  },
  {
-  "latijn": "rediturus ",
-  "nederlands": "pfa van redire"
+  "code": "rediturus ",
+  "name": "pfa van redire"
  },
  {
-  "latijn": "nubes ",
-  "nederlands": " nubes "
+  "code": "nubes ",
+  "name": " nubes "
  },
  {
-  "latijn": "omen ",
-  "nederlands": " omina "
+  "code": "omen ",
+  "name": " omina "
  },
  {
-  "latijn": "pietas ",
-  "nederlands": " pietates "
+  "code": "pietas ",
+  "name": " pietates "
  },
  {
-  "latijn": "somnium ",
-  "nederlands": "droom"
+  "code": "somnium ",
+  "name": "droom"
  },
  {
-  "latijn": "vultus 4 ",
-  "nederlands": "gezicht"
+  "code": "vultus 4 ",
+  "name": "gezicht"
  },
  {
-  "latijn": "ante ",
-  "nederlands": "1 + acc voor 2 bijw eerder"
+  "code": "ante ",
+  "name": "1 + acc voor 2 bijw eerder"
  },
  {
-  "latijn": "supra ",
-  "nederlands": "1 + acc boven 2 bijw (er)boven"
+  "code": "supra ",
+  "name": "1 + acc boven 2 bijw (er)boven"
  },
  {
-  "latijn": "efficere ",
-  "nederlands": " efficio "
+  "code": "efficere ",
+  "name": " efficio "
  },
  {
-  "latijn": "eligere ",
-  "nederlands": "uitkiezen"
+  "code": "eligere ",
+  "name": "uitkiezen"
  },
  {
-  "latijn": "effeci ",
-  "nederlands": "pf vanefficere"
+  "code": "effeci ",
+  "name": "pf vanefficere"
  },
  {
-  "latijn": "arcessitus ",
-  "nederlands": "ppp van arcessere"
+  "code": "arcessitus ",
+  "name": "ppp van arcessere"
  },
  {
-  "latijn": "electus ",
-  "nederlands": "ppp van eligere"
+  "code": "electus ",
+  "name": "ppp van eligere"
  },
  {
-  "latijn": "victurus ",
-  "nederlands": "pfa van vivere"
+  "code": "victurus ",
+  "name": "pfa van vivere"
  },
  {
-  "latijn": "audacia ",
-  "nederlands": "(over)moed"
+  "code": "audacia ",
+  "name": "(over)moed"
  },
  {
-  "latijn": "morbus ",
-  "nederlands": "ziekte"
+  "code": "morbus ",
+  "name": "ziekte"
  },
  {
-  "latijn": "sapienta ",
-  "nederlands": "wijsheid"
+  "code": "sapienta ",
+  "name": "wijsheid"
  },
  {
-  "latijn": "sors ",
-  "nederlands": " "
+  "code": "sors ",
+  "name": " "
  },
  {
-  "latijn": "aeger ",
-  "nederlands": " aegra "
+  "code": "aeger ",
+  "name": " aegra "
  },
  {
-  "latijn": "durus ",
-  "nederlands": " -a "
+  "code": "durus ",
+  "name": " -a "
  },
  {
-  "latijn": "Graecus (-a ",
-  "nederlands": " -um) "
+  "code": "Graecus (-a ",
+  "name": " -um) "
  },
  {
-  "latijn": "improbus ",
-  "nederlands": " -a "
+  "code": "improbus ",
+  "name": " -a "
  },
  {
-  "latijn": "nobilis ",
-  "nederlands": " -e "
+  "code": "nobilis ",
+  "name": " -e "
  },
  {
-  "latijn": "rectus ",
-  "nederlands": " -a "
+  "code": "rectus ",
+  "name": " -a "
  },
  {
-  "latijn": "ne + con HZ ",
-  "nederlands": "niet"
+  "code": "ne + con HZ ",
+  "name": "niet"
  },
  {
-  "latijn": "prior ",
-  "nederlands": " prius "
+  "code": "prior ",
+  "name": " prius "
  },
  {
-  "latijn": "quam uitroep ",
-  "nederlands": "wat "
+  "code": "quam uitroep ",
+  "name": "wat "
  },
  {
-  "latijn": "utinam ",
-  "nederlands": "leidt een wens in "
+  "code": "utinam ",
+  "name": "leidt een wens in "
  },
  {
-  "latijn": "talis ",
-  "nederlands": " -e "
+  "code": "talis ",
+  "name": " -e "
  },
  {
-  "latijn": "cernere ",
-  "nederlands": "onderscheiden "
+  "code": "cernere ",
+  "name": "onderscheiden "
  },
  {
-  "latijn": "cognoscere ",
-  "nederlands": "1 te weten komen 2 leren kennen"
+  "code": "cognoscere ",
+  "name": "1 te weten komen 2 leren kennen"
  },
  {
-  "latijn": "cognovi ",
-  "nederlands": "pf 1 weten 2 kennen"
+  "code": "cognovi ",
+  "name": "pf 1 weten 2 kennen"
  },
  {
-  "latijn": "demittere ",
-  "nederlands": "laten zakken "
+  "code": "demittere ",
+  "name": "laten zakken "
  },
  {
-  "latijn": "evadere ",
-  "nederlands": "ontsnappen"
+  "code": "evadere ",
+  "name": "ontsnappen"
  },
  {
-  "latijn": "exclamare ",
-  "nederlands": "uitroepen"
+  "code": "exclamare ",
+  "name": "uitroepen"
  },
  {
-  "latijn": "iactare ",
-  "nederlands": "1 slingeren 2 opscheppen over"
+  "code": "iactare ",
+  "name": "1 slingeren 2 opscheppen over"
  },
  {
-  "latijn": "solvere ",
-  "nederlands": "1 losmaken 2 betalen"
+  "code": "solvere ",
+  "name": "1 losmaken 2 betalen"
  },
  {
-  "latijn": "crevi ",
-  "nederlands": "pf van cernere"
+  "code": "crevi ",
+  "name": "pf van cernere"
  },
  {
-  "latijn": "cognovi ",
-  "nederlands": "pf van cognoscere"
+  "code": "cognovi ",
+  "name": "pf van cognoscere"
  },
  {
-  "latijn": "demisi ",
-  "nederlands": "pf van demittere"
+  "code": "demisi ",
+  "name": "pf van demittere"
  },
  {
-  "latijn": "proposui ",
-  "nederlands": "pf van proponere"
+  "code": "proposui ",
+  "name": "pf van proponere"
  },
  {
-  "latijn": "comes ",
-  "nederlands": " comites "
+  "code": "comes ",
+  "name": " comites "
  },
  {
-  "latijn": "genu ",
-  "nederlands": " genua "
+  "code": "genu ",
+  "name": " genua "
  },
  {
-  "latijn": "gratia ",
-  "nederlands": "1 gunst 2 dank 3 charme"
+  "code": "gratia ",
+  "name": "1 gunst 2 dank 3 charme"
  },
  {
-  "latijn": "praeda ",
-  "nederlands": "buit"
+  "code": "praeda ",
+  "name": "buit"
  },
  {
-  "latijn": "res gestae mv ",
-  "nederlands": "oorlogsdaden"
+  "code": "res gestae mv ",
+  "name": "oorlogsdaden"
  },
  {
-  "latijn": "adeo ",
-  "nederlands": "zo(zeer)"
+  "code": "adeo ",
+  "name": "zo(zeer)"
  },
  {
-  "latijn": "cum + con ",
-  "nederlands": "1 toen "
+  "code": "cum + con ",
+  "name": "1 toen "
  },
  {
-  "latijn": "inter se ",
-  "nederlands": "onderling"
+  "code": "inter se ",
+  "name": "onderling"
  },
  {
-  "latijn": "ne + con BZ ",
-  "nederlands": "1 (met de bedoeling) dat niet "
+  "code": "ne + con BZ ",
+  "name": "1 (met de bedoeling) dat niet "
  },
  {
-  "latijn": "ut + con ",
-  "nederlands": "1 (met de bedoeling) dat "
+  "code": "ut + con ",
+  "name": "1 (met de bedoeling) dat "
  },
  {
-  "latijn": "tantus ",
-  "nederlands": " -a "
+  "code": "tantus ",
+  "name": " -a "
  }
-]
 ];
 
 function printData(Arr) {
