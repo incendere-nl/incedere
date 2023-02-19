@@ -25,6 +25,18 @@ $('#txt-search').keyup(function(){
 				  }
 				  count++;
 				}
+                  if ((val.nederlands.search(regex) != -1)) {
+                       output += '<div class="col-md-6 well">';
+				  output += '<div class="col-md-7">';
+				  output += '<h5>' + val.nederlands + '</h5>';
+				  output += '<p>' + val.latijn + '</p>'
+				  output += '</div>';
+				  output += '</div>';
+				  if(count%2 == 0){
+					output += '</div><div class="row">'
+				  }
+				  count++;
+                  }
 			  });
 			  output += '</div>';
 			  $('#filter-records').html(output);
